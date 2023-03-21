@@ -1,0 +1,1275 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class PreyCaptureWorld
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class PreyCaptureWorld
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld">
+
+
+  <h1 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld" class="text-break">Class PreyCaptureWorld
+</h1>
+  <div class="markdown level0 summary"><p>The prey capture task's grid world, as defined in:</p>
+<p>Incremental Evolution Of Complex General Behavior, Faustino Gomez and Risto Miikkulainen (1997)
+<a href="http://nn.cs.utexas.edu/downloads/papers/gomez.adaptive-behavior.pdf">http://nn.cs.utexas.edu/downloads/papers/gomez.adaptive-behavior.pdf</a></p>
+<p>Encapsulates the agent's sensor and motor hardware, and the prey's simple stochastic movement.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">PreyCaptureWorld</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Tasks.html">Tasks</a>.<a class="xref" href="SharpNeat.Tasks.PreyCapture.html">PreyCapture</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.Tasks.dll</h6>
+  <h5 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PreyCaptureWorld</code></pre>
+  </div>
+  <h5 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The grid world's origin, i.e. coordinate (0,0), is at the bottom left of the grid.</p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__cctor.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.%23cctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L47">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__cctor_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.#cctor*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__cctor" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.#cctor">PreyCaptureWorld()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static PreyCaptureWorld()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__ctor_System_Int32_System_Single_System_Single_System_Int32_.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.%23ctor(System.Int32%2CSystem.Single%2CSystem.Single%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L85">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__ctor_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.#ctor*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__ctor_System_Int32_System_Single_System_Single_System_Int32_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.#ctor(System.Int32,System.Single,System.Single,System.Int32)">PreyCaptureWorld(int, float, float, int)</h4>
+  <div class="markdown level1 summary"><p>Constructs with the provided world parameter arguments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PreyCaptureWorld(int preyInitMoves, float preySpeed, float sensorRange, int maxTimesteps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">preyInitMoves</span></td>
+        <td><p>Prey initial moves. The number of moves the prey is allowed to move before the agent can move.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">preySpeed</span></td>
+        <td><p>Prey speed; in the interval [0, 1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">sensorRange</span></td>
+        <td><p>The sensor range of the agent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">maxTimesteps</span></td>
+        <td><p>The maximum number of simulation timesteps to run without the agent capturing the prey.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld___atan2Lookup.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.__atan2Lookup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L29">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld___atan2Lookup" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.__atan2Lookup">__atan2Lookup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static readonly float[,] __atan2Lookup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span>[,]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld___atan2LookupOffset.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.__atan2LookupOffset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L28">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld___atan2LookupOffset" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.__atan2LookupOffset">__atan2LookupOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private const int __atan2LookupOffset = 23</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld___gridSize.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.__gridSize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L27">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld___gridSize" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.__gridSize">__gridSize</h4>
+  <div class="markdown level1 summary"><p>The length of an edge of the square grid world, measured in grid squares. The minimum possible value here is 9,
+otherwise the initial position of the agent may be outside of the grid world, and also the agent wall detectors
+would all be always on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private const int __gridSize = 24</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__agentPos.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._agentPos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L43">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__agentPos" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._agentPos">_agentPos</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Int32Point _agentPos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.PreyCapture.Int32Point.html">Int32Point</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__maxTimesteps.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._maxTimesteps%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L36">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__maxTimesteps" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._maxTimesteps">_maxTimesteps</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly int _maxTimesteps</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__preyInitMoves.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._preyInitMoves%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L32">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__preyInitMoves" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._preyInitMoves">_preyInitMoves</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly int _preyInitMoves</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__preyPos.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._preyPos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L42">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__preyPos" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._preyPos">_preyPos</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Int32Point _preyPos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.PreyCapture.Int32Point.html">Int32Point</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__preySpeed.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._preySpeed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L33">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__preySpeed" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._preySpeed">_preySpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly float _preySpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__rng.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._rng%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L39">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__rng" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._rng">_rng</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly IRandomSource _rng</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IRandomSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__sensorRange.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._sensorRange%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L34">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__sensorRange" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._sensorRange">_sensorRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly float _sensorRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__sensorRangeSqr.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._sensorRangeSqr%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L35">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld__sensorRangeSqr" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld._sensorRangeSqr">_sensorRangeSqr</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly float _sensorRangeSqr</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_AgentPosition.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.AgentPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L117">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_AgentPosition_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.AgentPosition*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_AgentPosition" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.AgentPosition">AgentPosition</h4>
+  <div class="markdown level1 summary"><p>Gets the grid square position of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int32Point AgentPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.PreyCapture.Int32Point.html">Int32Point</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_GridSize.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.GridSize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L102">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_GridSize_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.GridSize*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_GridSize" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.GridSize">GridSize</h4>
+  <div class="markdown level1 summary"><p>Gets the size of the square grid, stated as the number length of an edge measured in grid squares.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GridSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MaxTimesteps.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MaxTimesteps%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L127">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MaxTimesteps_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MaxTimesteps*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MaxTimesteps" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MaxTimesteps">MaxTimesteps</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum number of simulation timesteps to run without the agent capturing the prey.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxTimesteps { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_PreyInitMoves.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.PreyInitMoves%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L107">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_PreyInitMoves_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.PreyInitMoves*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_PreyInitMoves" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.PreyInitMoves">PreyInitMoves</h4>
+  <div class="markdown level1 summary"><p>Gets the number of moves the prey is allowed to move before the agent can move.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PreyInitMoves { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_PreyPosition.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.PreyPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L122">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_PreyPosition_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.PreyPosition*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_PreyPosition" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.PreyPosition">PreyPosition</h4>
+  <div class="markdown level1 summary"><p>Gets the grid square position of the prey.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int32Point PreyPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.PreyCapture.Int32Point.html">Int32Point</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_SensorRange.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.SensorRange%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L112">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_SensorRange_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.SensorRange*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_SensorRange" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.SensorRange">SensorRange</h4>
+  <div class="markdown level1 summary"><p>Gets the sensor range of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SensorRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_AngleDelta_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.AngleDelta(System.Single%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L422">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_AngleDelta_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.AngleDelta*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_AngleDelta_System_Single_System_Single_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.AngleDelta(System.Single,System.Single)">AngleDelta(float, float)</h4>
+  <div class="markdown level1 summary"><p>Gives the smallest angle between two vectors with the given angles.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static float AngleDelta(float a, float b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Vector a angle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Vector b angle.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><p>Smallest angle between a and b.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_CartesianToPolar_SharpNeat_Tasks_PreyCapture_Int32Point_System_Int32__System_Single__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.CartesianToPolar(SharpNeat.Tasks.PreyCapture.Int32Point%2CSystem.Int32%40%2CSystem.Single%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L451">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_CartesianToPolar_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.CartesianToPolar*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_CartesianToPolar_SharpNeat_Tasks_PreyCapture_Int32Point_System_Int32__System_Single__" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.CartesianToPolar(SharpNeat.Tasks.PreyCapture.Int32Point,System.Int32@,System.Single@)">CartesianToPolar(Int32Point, out int, out float)</h4>
+  <div class="markdown level1 summary"><p>Convert the given integer Cartesian coordinate to a polar coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static void CartesianToPolar(Int32Point p, out int radiusSqr, out float azimuth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.PreyCapture.Int32Point.html">Int32Point</a></td>
+        <td><span class="parametername">p</span></td>
+        <td><p>The integer Cartesian coordinate to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">radiusSqr</span></td>
+        <td><p>Returns the square of the radius, as an integer. I.e. the distance from the pole, squared.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">azimuth</span></td>
+        <td><p>Returns the azimuth; the anticlockwise angle from the polar axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_CartesianToPolar_SharpNeat_Tasks_PreyCapture_Int32Point_System_Int32__System_Single___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The radius coordinate is returned as the <em>square</em> of the radius. This is because normally we want to compare the radius
+with some threshold, and it's faster to avoid a square root operation to calculate the radius, and instead to compare
+squared radii.</p>
+<p>By convention the polar axis is horizontal and to the right, and a positive azimuth represents an anticlockwise
+rotation. Therefore an azimuth of zero degrees represents due east (note. this same angle is never represented by
++360 degrees), and an angle of +90 degrees represents due north.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Exp_System_Single_.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.Exp(System.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L470">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Exp_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.Exp*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Exp_System_Single_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.Exp(System.Single)">Exp(float)</h4>
+  <div class="markdown level1 summary"><p>Returns e raised to the specified power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static float Exp(float x)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>A number specifying a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><p>The number e raised to the power x.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Exp_System_Single__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This approximate function is customised for use in the prey capture task, and gives reasonable results over the interval [0, 2*PI].
+As such this function should not be used elsewhere as a general purpose approximation for exp().</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_InitPositions.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.InitPositions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L179">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_InitPositions_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.InitPositions*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_InitPositions" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.InitPositions">InitPositions()</h4>
+  <div class="markdown level1 summary"><p>Initialise agent and prey positions. The prey is positioned randomly with at least 4 empty squares between it and a wall (in all directions).
+The agent is positioned randomly but such that the prey is within sensor range (distance 2 or less).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitPositions()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_IsPreyCaptured.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.IsPreyCaptured%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L359">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_IsPreyCaptured_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.IsPreyCaptured*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_IsPreyCaptured" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.IsPreyCaptured">IsPreyCaptured()</h4>
+  <div class="markdown level1 summary"><p>Gets a boolean that indicates if the prey has been captured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPreyCaptured()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the agent has captured the prey; otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MoveAgent_SharpNeat_IBlackBox_System_Double__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MoveAgent(SharpNeat.IBlackBox%7BSystem.Double%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L259">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MoveAgent_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MoveAgent*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MoveAgent_SharpNeat_IBlackBox_System_Double__" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MoveAgent(SharpNeat.IBlackBox{System.Double})">MoveAgent(IBlackBox&lt;double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Allow the agent to move one square based on its decision. Note that the agent can choose to not move.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveAgent(IBlackBox&lt;double&gt; agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MovePrey.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MovePrey%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L307">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MovePrey_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MovePrey*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_MovePrey" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.MovePrey">MovePrey()</h4>
+  <div class="markdown level1 summary"><p>Move the prey. The prey moves by a simple set of stochastic rules that make it more likely to move away from
+the agent with increased proximity to the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MovePrey()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_NormaliseProbabilities_System_Span_System_Single__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.NormaliseProbabilities(System.Span%7BSystem.Single%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L519">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_NormaliseProbabilities_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.NormaliseProbabilities*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_NormaliseProbabilities_System_Span_System_Single__" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.NormaliseProbabilities(System.Span{System.Single})">NormaliseProbabilities(Span&lt;float&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static void NormaliseProbabilities(Span&lt;float&gt; probs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">float</span>&gt;</td>
+        <td><span class="parametername">probs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_RunTrial_SharpNeat_IBlackBox_System_Double__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.RunTrial(SharpNeat.IBlackBox%7BSystem.Double%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L139">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_RunTrial_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.RunTrial*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_RunTrial_SharpNeat_IBlackBox_System_Double__" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.RunTrial(SharpNeat.IBlackBox{System.Double})">RunTrial(IBlackBox&lt;double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs one trial of the provided agent in the world. Returns true if the agent captures the prey within
+the maximum number of timesteps allowed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RunTrial(IBlackBox&lt;double&gt; agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent to run the trail with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the agent captured the prey; otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Sample_System_Span_System_Single__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.Sample(System.Span%7BSystem.Single%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L498">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Sample_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.Sample*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_Sample_System_Span_System_Single__" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.Sample(System.Span{System.Single})">Sample(Span&lt;float&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int Sample(Span&lt;float&gt; probs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">float</span>&gt;</td>
+        <td><span class="parametername">probs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_SetAgentInputsAndActivate_SharpNeat_IBlackBox_System_Double__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.SetAgentInputsAndActivate(SharpNeat.IBlackBox%7BSystem.Double%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L196">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_SetAgentInputsAndActivate_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.SetAgentInputsAndActivate*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_SetAgentInputsAndActivate_SharpNeat_IBlackBox_System_Double__" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.SetAgentInputsAndActivate(SharpNeat.IBlackBox{System.Double})">SetAgentInputsAndActivate(IBlackBox&lt;double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determine the agent's position in the world relative to the prey and walls, and set its sensor inputs accordingly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAgentInputsAndActivate(IBlackBox&lt;double&gt; agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_T_System_Single_.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.T(System.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L374">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_T_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.T*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_T_System_Single_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.T(System.Single)">T(float)</h4>
+  <div class="markdown level1 summary"><p>The T function as defined in Appendix A of the paper referenced at the top of this class.
+This is a function on the distance between the agent and the prey, with it's maximum value of 15 when distance is zero,
+and minimum value of 1.0 when distance is greater than 15.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static float T(float distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>Distance between the agent and the prey.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_W_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.W(System.Single%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L395">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_W_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.W*"></a>
+  <h4 id="SharpNeat_Tasks_PreyCapture_PreyCaptureWorld_W_System_Single_System_Single_" data-uid="SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.W(System.Single,System.Single)">W(float, float)</h4>
+  <div class="markdown level1 summary"><p>The W function as defined in Appendix A of the paper referenced at the top of this class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static float W(float angleA, float angleB)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">angleA</span></td>
+        <td><p>Angle A (radians).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">angleB</span></td>
+        <td><p>Angle B (radians).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_PreyCapture_PreyCaptureWorld.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.PreyCapture.PreyCaptureWorld%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

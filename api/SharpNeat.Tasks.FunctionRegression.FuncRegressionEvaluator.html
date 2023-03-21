@@ -1,0 +1,510 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class FuncRegressionEvaluator
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class FuncRegressionEvaluator
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator">
+
+
+  <h1 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator" class="text-break">Class FuncRegressionEvaluator
+</h1>
+  <div class="markdown level0 summary"><p>Evaluator for the Function Regression task.</p>
+<p>One continuous valued input maps to one continuous valued output.</p>
+<p>Evaluation consists of querying the provided black box for a number of distinct values over the range of the
+continuous valued input, and comparing the black box response with the expected/correct response.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">FuncRegressionEvaluator</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SharpNeat.Evaluation.IPhenomeEvaluator-1.html">IPhenomeEvaluator</a>&lt;<a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox</a>&lt;<span class="xref">double</span>&gt;&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Tasks.html">Tasks</a>.<a class="xref" href="SharpNeat.Tasks.FunctionRegression.html">FunctionRegression</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.Tasks.dll</h6>
+  <h5 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FuncRegressionEvaluator : IPhenomeEvaluator&lt;IBlackBox&lt;double&gt;&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__ctor_SharpNeat_Tasks_FunctionRegression_ParamSamplingInfo_System_Double_System_Double___System_Double___SharpNeat_Tasks_FunctionRegression_IBlackBoxProbe_.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.%23ctor(SharpNeat.Tasks.FunctionRegression.ParamSamplingInfo%2CSystem.Double%2CSystem.Double%5B%5D%2CSystem.Double%5B%5D%2CSharpNeat.Tasks.FunctionRegression.IBlackBoxProbe)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L44">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__ctor_" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.#ctor*"></a>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__ctor_SharpNeat_Tasks_FunctionRegression_ParamSamplingInfo_System_Double_System_Double___System_Double___SharpNeat_Tasks_FunctionRegression_IBlackBoxProbe_" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.#ctor(SharpNeat.Tasks.FunctionRegression.ParamSamplingInfo,System.Double,System.Double[],System.Double[],SharpNeat.Tasks.FunctionRegression.IBlackBoxProbe)">FuncRegressionEvaluator(ParamSamplingInfo, double, double[], double[], IBlackBoxProbe)</h4>
+  <div class="markdown level1 summary"><p>Construct a new instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">internal FuncRegressionEvaluator(ParamSamplingInfo paramSamplingInfo, double gradientMseWeight, double[] yArrTarget, double[] gradientArrTarget, IBlackBoxProbe blackBoxProbe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.FunctionRegression.ParamSamplingInfo.html">ParamSamplingInfo</a></td>
+        <td><span class="parametername">paramSamplingInfo</span></td>
+        <td><p>Parameter sampling info.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">double</span></td>
+        <td><span class="parametername">gradientMseWeight</span></td>
+        <td><p>Fitness weighting to apply to the gradient fitness score.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td><span class="parametername">yArrTarget</span></td>
+        <td><p>Array of target y values (function output values).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td><span class="parametername">gradientArrTarget</span></td>
+        <td><p>Array of target gradient values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.FunctionRegression.IBlackBoxProbe.html">IBlackBoxProbe</a></td>
+        <td><span class="parametername">blackBoxProbe</span></td>
+        <td><p>Black box probe. For obtaining the y value response array from an instance of <a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__blackBoxProbe.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._blackBoxProbe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L32">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__blackBoxProbe" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._blackBoxProbe">_blackBoxProbe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly IBlackBoxProbe _blackBoxProbe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.FunctionRegression.IBlackBoxProbe.html">IBlackBoxProbe</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__gradientArr.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._gradientArr%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L30">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__gradientArr" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._gradientArr">_gradientArr</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly double[] _gradientArr</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__gradientArrTarget.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._gradientArrTarget%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L26">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__gradientArrTarget" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._gradientArrTarget">_gradientArrTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly double[] _gradientArrTarget</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__gradientMseWeight.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._gradientMseWeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L21">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__gradientMseWeight" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._gradientMseWeight">_gradientMseWeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly double _gradientMseWeight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__paramSamplingInfo.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._paramSamplingInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L20">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__paramSamplingInfo" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._paramSamplingInfo">_paramSamplingInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly ParamSamplingInfo _paramSamplingInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Tasks.FunctionRegression.ParamSamplingInfo.html">ParamSamplingInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__yArr.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._yArr%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L29">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__yArr" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._yArr">_yArr</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly double[] _yArr</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__yArrTarget.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._yArrTarget%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L25">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__yArrTarget" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._yArrTarget">_yArrTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly double[] _yArrTarget</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__yMseWeight.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._yMseWeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L22">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator__yMseWeight" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator._yMseWeight">_yMseWeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly double _yMseWeight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator_Evaluate_SharpNeat_IBlackBox_System_Double__.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.Evaluate(SharpNeat.IBlackBox%7BSystem.Double%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L76">View Source</a>
+  </span>
+  <a id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator_Evaluate_" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.Evaluate*"></a>
+  <h4 id="SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator_Evaluate_SharpNeat_IBlackBox_System_Double__" data-uid="SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.Evaluate(SharpNeat.IBlackBox{System.Double})">Evaluate(IBlackBox&lt;double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Evaluate the provided black box against the function regression task,
+and return its fitness score.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FitnessInfo Evaluate(IBlackBox&lt;double&gt; box)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">box</span></td>
+        <td><p>The black box to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Evaluation.FitnessInfo.html">FitnessInfo</a></td>
+        <td><p>A new instance of <a class="xref" href="SharpNeat.Evaluation.FitnessInfo.html">FitnessInfo</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SharpNeat.Evaluation.IPhenomeEvaluator-1.html">IPhenomeEvaluator&lt;TPhenome&gt;</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Tasks_FunctionRegression_FuncRegressionEvaluator.md&amp;value=---%0Auid%3A%20SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
