@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AcyclicGraphDepthAnalysis
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AcyclicGraphDepthAnalysis
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis">
+
+
+  <h1 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis" class="text-break">Class AcyclicGraphDepthAnalysis
+</h1>
+  <div class="markdown level0 summary"><p>An algorithm for calculating the depth of each node in an acyclic graph.</p>
+<p>Input nodes are defined as being at depth 0, the depth of all other nodes is defined as the maximum number
+of hops to each node from an input node. I.e. where multiple paths exist to a node (potentially each with
+a different numbers of hops), the node's depth is defined by the path with the most number of hops.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">AcyclicGraphDepthAnalysis</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Graphs.html">Graphs</a>.<a class="xref" href="SharpNeat.Graphs.Acyclic.html">Acyclic</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.dll</h6>
+  <h5 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class AcyclicGraphDepthAnalysis</code></pre>
+  </div>
+  <h5 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The algorithm utilises a depth first traversal of the graph, but using its own traversal stack data
+structure instead of relying on function recursion and the call stack. This is an optimisation, for more
+details see the comments on: <a class="xref" href="SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.CyclicConnectionCheck.html">CyclicConnectionCheck</a>.
+Also see:
+<a class="xref" href="SharpNeat.Graphs.Acyclic.CyclicConnectionCheck.html">CyclicConnectionCheck</a>
+<a class="xref" href="SharpNeat.Graphs.CyclicGraphCheck.html">CyclicGraphCheck</a>.</p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L44">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.#ctor*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.#ctor">AcyclicGraphDepthAnalysis()</h4>
+  <div class="markdown level1 summary"><p>Default constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AcyclicGraphDepthAnalysis()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.%23ctor(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L58">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.#ctor*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor_System_Boolean_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.#ctor(System.Boolean)">AcyclicGraphDepthAnalysis(bool)</h4>
+  <div class="markdown level1 summary"><p>Construct with a <code data-dev-comment-type="paramref" class="paramref">validateAcyclic</code> flag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AcyclicGraphDepthAnalysis(bool validateAcyclic)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">validateAcyclic</span></td>
+        <td><p>If true then each call to <a class="xref" href="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.html#SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepths_SharpNeat_Graphs_DirectedGraph_">CalculateNodeDepths(DirectedGraph)</a> will test if
+the graph is cyclic before calculating the acyclic node depths. This is computationally expensive, and
+as such is intended to be used in debugging and testing scenarios only.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__ctor_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the caller can guarantee that calls to CalculateNodeDepths() will provide acyclic graphs only, then
+<code data-dev-comment-type="paramref" class="paramref">validateAcyclic</code> can be set to false to avoid the cost of the cyclic graph check (which is relatively expensive to perform).</p>
+</div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__cyclicGraphCheck.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis._cyclicGraphCheck%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L27">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__cyclicGraphCheck" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis._cyclicGraphCheck">_cyclicGraphCheck</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly CyclicGraphCheck? _cyclicGraphCheck</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.CyclicGraphCheck.html">CyclicGraphCheck</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__nodeDepthByIdx.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis._nodeDepthByIdx%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L30">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__nodeDepthByIdx" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis._nodeDepthByIdx">_nodeDepthByIdx</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int[]? _nodeDepthByIdx</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__traversalStack.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis._traversalStack%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L25">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis__traversalStack" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis._traversalStack">_traversalStack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly LightweightStack&lt;AcyclicGraphDepthAnalysis.StackFrame&gt; _traversalStack</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LightweightStack</span>&lt;<a class="xref" href="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.html">AcyclicGraphDepthAnalysis</a>.<a class="xref" href="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.StackFrame.html">StackFrame</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepths_SharpNeat_Graphs_DirectedGraph_.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.CalculateNodeDepths(SharpNeat.Graphs.DirectedGraph)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L82">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepths_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.CalculateNodeDepths*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepths_SharpNeat_Graphs_DirectedGraph_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.CalculateNodeDepths(SharpNeat.Graphs.DirectedGraph)">CalculateNodeDepths(DirectedGraph)</h4>
+  <div class="markdown level1 summary"><p>Calculate node depths in an acyclic directed graph.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GraphDepthInfo CalculateNodeDepths(DirectedGraph digraph)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>The directed graph.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.Acyclic.GraphDepthInfo.html">GraphDepthInfo</a></td>
+        <td><p>A new instance of <a class="xref" href="SharpNeat.Graphs.Acyclic.GraphDepthInfo.html">GraphDepthInfo</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepths_SharpNeat_Graphs_DirectedGraph__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <code data-dev-comment-type="paramref" class="paramref">digraph</code> represents a cyclic graph, then this method will either
+(a) If validateAcyclic=true passed in at construction time, then an exception is thrown; otherwise
+(b) this method is non-completing, and will ultimately cause an out-of-memory exception.</p>
+<p>The cyclic test is expensive, therefore it should be avoided in normal use if possible, thus relying
+on the correctness of the caller, i.e., the caller should only ever call this method with acyclic
+graphs.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepthsInner_SharpNeat_Graphs_DirectedGraph_.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.CalculateNodeDepthsInner(SharpNeat.Graphs.DirectedGraph)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L119">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepthsInner_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.CalculateNodeDepthsInner*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_CalculateNodeDepthsInner_SharpNeat_Graphs_DirectedGraph_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.CalculateNodeDepthsInner(SharpNeat.Graphs.DirectedGraph)">CalculateNodeDepthsInner(DirectedGraph)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void CalculateNodeDepthsInner(DirectedGraph digraph)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_Cleanup.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.Cleanup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L209">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_Cleanup_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.Cleanup*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_Cleanup" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.Cleanup">Cleanup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Cleanup()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_MoveForward_System_ReadOnlySpan_System_Int32__System_ReadOnlySpan_System_Int32__SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_StackFrame__.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.MoveForward(System.ReadOnlySpan%7BSystem.Int32%7D%2CSystem.ReadOnlySpan%7BSystem.Int32%7D%2CSharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.StackFrame%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L184">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_MoveForward_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.MoveForward*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_MoveForward_System_ReadOnlySpan_System_Int32__System_ReadOnlySpan_System_Int32__SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_StackFrame__" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.MoveForward(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.StackFrame@)">MoveForward(ReadOnlySpan&lt;int&gt;, ReadOnlySpan&lt;int&gt;, in StackFrame)</h4>
+  <div class="markdown level1 summary"><p>Update the stack state to point to the next connection to traverse down.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void MoveForward(ReadOnlySpan&lt;int&gt; srcIds, ReadOnlySpan&lt;int&gt; tgtIds, in AcyclicGraphDepthAnalysis.StackFrame currStackFrame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">srcIds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">tgtIds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.html">AcyclicGraphDepthAnalysis</a>.<a class="xref" href="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.StackFrame.html">StackFrame</a></td>
+        <td><span class="parametername">currStackFrame</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_TraverseGraph_SharpNeat_Graphs_DirectedGraph_.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.TraverseGraph(SharpNeat.Graphs.DirectedGraph)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L140">View Source</a>
+  </span>
+  <a id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_TraverseGraph_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.TraverseGraph*"></a>
+  <h4 id="SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis_TraverseGraph_SharpNeat_Graphs_DirectedGraph_" data-uid="SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.TraverseGraph(SharpNeat.Graphs.DirectedGraph)">TraverseGraph(DirectedGraph)</h4>
+  <div class="markdown level1 summary"><p>The graph traversal algorithm.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void TraverseGraph(DirectedGraph digraph)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>The directed acyclic graph to traverse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Graphs_Acyclic_AcyclicGraphDepthAnalysis.md&amp;value=---%0Auid%3A%20SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Graphs/Acyclic/AcyclicGraphDepthAnalysis.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
