@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class RegularizedGeneticKMeansSpeciationStrategy&lt;T&gt;
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class RegularizedGeneticKMeansSpeciationStrategy&lt;T&gt;
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1">
+
+
+  <h1 id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1" class="text-break">Class RegularizedGeneticKMeansSpeciationStrategy&lt;T&gt;
+</h1>
+  <div class="markdown level0 summary"><p>A speciation strategy that assigns genomes to species using k-means clustering on the genes of each genome.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">RegularizedGeneticKMeansSpeciationStrategy&lt;T&gt;</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SharpNeat.Neat.Speciation.ISpeciationStrategy-2.html">ISpeciationStrategy</a>&lt;<a class="xref" href="SharpNeat.Neat.Genome.NeatGenome-1.html">NeatGenome</a>&lt;T&gt;, T&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Neat.html">Neat</a>.<a class="xref" href="SharpNeat.Neat.Speciation.html">Speciation</a>.<a class="xref" href="SharpNeat.Neat.Speciation.GeneticKMeans.html">GeneticKMeans</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.dll</h6>
+  <h5 id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class RegularizedGeneticKMeansSpeciationStrategy&lt;T&gt; : ISpeciationStrategy&lt;NeatGenome&lt;T&gt;, T&gt; where T : struct</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Neural net numeric data type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This class applies a regularized k-means method as described in this paper:
+&quot;REGULARISED k-MEANS CLUSTERING FOR DIMENSION REDUCTION APPLIED TO SUPERVISED CLASSIFICATION&quot;,
+Vladimir Nikulin, Geoffrey J. McLachlan, Department of Mathematics, University of Queensland, Brisbane, Australia.
+<a href="https://people.smp.uq.edu.au/GeoffMcLachlan/cibb/nm_cibb09.pdf">https://people.smp.uq.edu.au/GeoffMcLachlan/cibb/nm_cibb09.pdf</a></p>
+<p>The intent of regularization is to discourage formation of large dominating clusters (species), and instead to
+encourage more even distribution of genomes amongst clusters, and also the formation of more stable clusters.</p>
+<p>Regularization works as follows. In standard k-means the genomes are allocated to species who's centroid they are
+nearest to, the regularization method in use here adjusts the calculated genome-centroid distances to include an
+additional regularization term, like so:</p>
+<p>adjustedDistance = distance + regularitationTerm</p>
+<p>The regularization term (r) is calculated as follows:</p>
+<p>r = (c/populationSize) * L * alpha</p>
+<p>Where:
+c is a cluster size (species size).
+alpha is a constant scaling factor.
+L is the maximum distance between any two species centroid.</p>
+<p>Thus, the term (c/populationSize) is a proportion ranging over the interval [0,1], where small clusters are
+near to zero and large cluster are nearer 1. As such the regularization term will be higher for larger clusters
+and therefore any genomes on he edges of a large cluster may be allocated to a nearby smaller cluster instead.</p>
+<p>L is intended to represent the magnitudes of the distances being dealt with, i.e. it makes the regularization
+method as a whole 'scale free'. The calculation for L used in this class differs from that used in the paper
+referred to above, but the intention is the same, i.e. to obtain some stable value that is representative of
+the magnitude of the distances being dealt with.</p>
+<p>In the referred to paper L is taken to be the maximum distance between any genome and any specie centroid. In
+this class we take the maximum distance between any two species centroids, this should result in a scale free
+distance that serves the same purpose, but that is faster to compute. This version of L will tend to be smaller
+that the version used in the paper, but we can adjust alpha (the constant scaling factor) accordingly.</p>
+<p>At time of writing this class is experimental and has not been scientifically examined for suitability or
+efficacy in particular in comparison to the standard k-means method.</p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1__ctor_SharpNeat_Neat_DistanceMetrics_IDistanceMetric__0__System_Int32_System_Double_.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy%601.%23ctor(SharpNeat.Neat.DistanceMetrics.IDistanceMetric%7B%600%7D%2CSystem.Int32%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/Neat/Speciation/GeneticKMeans/RegularizedGeneticKMeansSpeciationStrategy.cs/#L68">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1__ctor_" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1.#ctor*"></a>
+  <h4 id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1__ctor_SharpNeat_Neat_DistanceMetrics_IDistanceMetric__0__System_Int32_System_Double_" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1.#ctor(SharpNeat.Neat.DistanceMetrics.IDistanceMetric{`0},System.Int32,System.Double)">RegularizedGeneticKMeansSpeciationStrategy(IDistanceMetric&lt;T&gt;, int, double)</h4>
+  <div class="markdown level1 summary"><p>Construct with the provided distance metric and k-means settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RegularizedGeneticKMeansSpeciationStrategy(IDistanceMetric&lt;T&gt; distanceMetric, int maxKMeansIters, double regularizationConstant)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.DistanceMetrics.IDistanceMetric-1.html">IDistanceMetric</a>&lt;T&gt;</td>
+        <td><span class="parametername">distanceMetric</span></td>
+        <td><p>Distance metric.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">maxKMeansIters</span></td>
+        <td><p>Maximum number of k-means iterations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">double</span></td>
+        <td><span class="parametername">regularizationConstant</span></td>
+        <td><p>Regularization constant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_SpeciateAdd_System_Collections_Generic_IList_SharpNeat_Neat_Genome_NeatGenome__0___SharpNeat_Neat_Speciation_Species__0____Redzen_Random_IRandomSource_.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy%601.SpeciateAdd(System.Collections.Generic.IList%7BSharpNeat.Neat.Genome.NeatGenome%7B%600%7D%7D%2CSharpNeat.Neat.Speciation.Species%7B%600%7D%5B%5D%2CRedzen.Random.IRandomSource)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/Neat/Speciation/GeneticKMeans/RegularizedGeneticKMeansSpeciationStrategy.cs/#L103">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_SpeciateAdd_" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1.SpeciateAdd*"></a>
+  <h4 id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_SpeciateAdd_System_Collections_Generic_IList_SharpNeat_Neat_Genome_NeatGenome__0___SharpNeat_Neat_Speciation_Species__0____Redzen_Random_IRandomSource_" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1.SpeciateAdd(System.Collections.Generic.IList{SharpNeat.Neat.Genome.NeatGenome{`0}},SharpNeat.Neat.Speciation.Species{`0}[],Redzen.Random.IRandomSource)">SpeciateAdd(IList&lt;NeatGenome&lt;T&gt;&gt;, Species&lt;T&gt;[], IRandomSource)</h4>
+  <div class="markdown level1 summary"><p>Merge new genomes into an existing set of species.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpeciateAdd(IList&lt;NeatGenome&lt;T&gt;&gt; genomeList, Species&lt;T&gt;[] speciesArr, IRandomSource rng)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="SharpNeat.Neat.Genome.NeatGenome-1.html">NeatGenome</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">genomeList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.Speciation.Species-1.html">Species</a>&lt;T&gt;[]</td>
+        <td><span class="parametername">speciesArr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IRandomSource</span></td>
+        <td><span class="parametername">rng</span></td>
+        <td><p>Random source.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_SpeciateAll_System_Collections_Generic_IList_SharpNeat_Neat_Genome_NeatGenome__0___System_Int32_Redzen_Random_IRandomSource_.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy%601.SpeciateAll(System.Collections.Generic.IList%7BSharpNeat.Neat.Genome.NeatGenome%7B%600%7D%7D%2CSystem.Int32%2CRedzen.Random.IRandomSource)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/Neat/Speciation/GeneticKMeans/RegularizedGeneticKMeansSpeciationStrategy.cs/#L84">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_SpeciateAll_" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1.SpeciateAll*"></a>
+  <h4 id="SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1_SpeciateAll_System_Collections_Generic_IList_SharpNeat_Neat_Genome_NeatGenome__0___System_Int32_Redzen_Random_IRandomSource_" data-uid="SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy`1.SpeciateAll(System.Collections.Generic.IList{SharpNeat.Neat.Genome.NeatGenome{`0}},System.Int32,Redzen.Random.IRandomSource)">SpeciateAll(IList&lt;NeatGenome&lt;T&gt;&gt;, int, IRandomSource)</h4>
+  <div class="markdown level1 summary"><p>Initialise a new set of species based on the provided population of genomes and the
+speciation method in use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Species&lt;T&gt;[] SpeciateAll(IList&lt;NeatGenome&lt;T&gt;&gt; genomeList, int speciesCount, IRandomSource rng)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<a class="xref" href="SharpNeat.Neat.Genome.NeatGenome-1.html">NeatGenome</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">genomeList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">speciesCount</span></td>
+        <td><p>The number of required species.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IRandomSource</span></td>
+        <td><span class="parametername">rng</span></td>
+        <td><p>Random source.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.Speciation.Species-1.html">Species</a>&lt;T&gt;[]</td>
+        <td><p>A new array of species.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SharpNeat.Neat.Speciation.ISpeciationStrategy-2.html">ISpeciationStrategy&lt;TGenome, TWeight&gt;</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Speciation_GeneticKMeans_RegularizedGeneticKMeansSpeciationStrategy_1.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/Neat/Speciation/GeneticKMeans/RegularizedGeneticKMeansSpeciationStrategy.cs/#L52" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

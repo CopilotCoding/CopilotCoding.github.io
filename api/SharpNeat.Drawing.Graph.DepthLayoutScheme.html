@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class DepthLayoutScheme
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class DepthLayoutScheme
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Drawing.Graph.DepthLayoutScheme">
+
+
+  <h1 id="SharpNeat_Drawing_Graph_DepthLayoutScheme" data-uid="SharpNeat.Drawing.Graph.DepthLayoutScheme" class="text-break">Class DepthLayoutScheme
+</h1>
+  <div class="markdown level0 summary"><p>An <a class="xref" href="SharpNeat.Drawing.Graph.IGraphLayoutScheme.html">IGraphLayoutScheme</a> that arranges/positions nodes into layers, based on their depth in the network.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">DepthLayoutScheme</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SharpNeat.Drawing.Graph.IGraphLayoutScheme.html">IGraphLayoutScheme</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Drawing.html">Drawing</a>.<a class="xref" href="SharpNeat.Drawing.Graph.html">Graph</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.Drawing.dll</h6>
+  <h5 id="SharpNeat_Drawing_Graph_DepthLayoutScheme_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DepthLayoutScheme : IGraphLayoutScheme</code></pre>
+  </div>
+  <h5 id="SharpNeat_Drawing_Graph_DepthLayoutScheme_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>=== Summary/Overview ===
+Lay out nodes based on their depth within the graph/network.</p>
+<p>The nodes of the graph are assigned a node depth. All nodes at the same depth are defined as being in the same layer,
+and the nodes of each layer are positioned in a horizontal row, with the depth zero row being placed at the top of
+the layout area, and the final layer being positioned at the bottom.</p>
+<p>=== Input and Output Layers ===
+The actual layers used are slightly different to the scheme described in the summary. The input nodes and output nodes
+of a graph are always laid out in their own rows at the top and bottom of the layout area, respectively. Hence, any
+hidden nodes defined as being at depth zero (i.e. no incoming connections) are actually positioned in the second layer.
+Likewise, hidden nodes with depths greater than or equal to any node in the output layer are positioned in he layer
+before the output layer.</p>
+<p>Essentially there are two 'virtual rows' for input and outputs, and the hidden nodes are arranged in between based on
+their node depth.</p>
+<p>=== Node Depths ===
+For acyclic graphs the node depths are already determined and stored in the DirectedGraph data structure (specifically in
+the subclass DirectedGraphAcyclic). This depth info is necessary for using the acyclic graphs (i.e. propagating a
+signal through the graph, from the input nodes through to he output nodes) and is based on the maximum number of hops
+to a given node, starting from the input layer.</p>
+<p>For cyclic graphs this layout scheme calculates node depths using a scheme similar to that used for the acyclic graphs,
+but with modifications to handle cyclic connections. In this scheme the depth of nodes with multiple incoming connections,
+some or all of which may be part of a cycle, is based on the average number of hops to that node. This is essentially a
+heuristic that aims to place nodes 'naturally', i.e. with connections mostly in nearby layers (on average).</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Drawing_Graph_DepthLayoutScheme_Layout_SharpNeat_Graphs_DirectedGraph_System_Drawing_Size_System_Span_System_Drawing_Point__System_Object__.md&amp;value=---%0Auid%3A%20SharpNeat.Drawing.Graph.DepthLayoutScheme.Layout(SharpNeat.Graphs.DirectedGraph%2CSystem.Drawing.Size%2CSystem.Span%7BSystem.Drawing.Point%7D%2CSystem.Object%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat.Drawing/Graph/DepthLayoutScheme.cs/#L65">View Source</a>
+  </span>
+  <a id="SharpNeat_Drawing_Graph_DepthLayoutScheme_Layout_" data-uid="SharpNeat.Drawing.Graph.DepthLayoutScheme.Layout*"></a>
+  <h4 id="SharpNeat_Drawing_Graph_DepthLayoutScheme_Layout_SharpNeat_Graphs_DirectedGraph_System_Drawing_Size_System_Span_System_Drawing_Point__System_Object__" data-uid="SharpNeat.Drawing.Graph.DepthLayoutScheme.Layout(SharpNeat.Graphs.DirectedGraph,System.Drawing.Size,System.Span{System.Drawing.Point},System.Object@)">Layout(DirectedGraph, Size, Span&lt;Point&gt;, ref object?)</h4>
+  <div class="markdown level1 summary"><p>Layout the nodes of the provided directed in a 2D area specified by <code data-dev-comment-type="paramref" class="paramref">layoutArea</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Layout(DirectedGraph digraph, Size layoutArea, Span&lt;Point&gt; nodePosByIdx, ref object? layoutSchemeData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>The directed graph to be laid out.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Size</span></td>
+        <td><span class="parametername">layoutArea</span></td>
+        <td><p>The area to layout nodes within.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">Point</span>&gt;</td>
+        <td><span class="parametername">nodePosByIdx</span></td>
+        <td><p>A span that will be populated with a 2D position for each node, within the provided layout area.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">layoutSchemeData</span></td>
+        <td><p>An optional object that conveys layout data specific to the layout scheme.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Drawing_Graph_DepthLayoutScheme_Layout_SharpNeat_Graphs_DirectedGraph_System_Drawing_Size_System_Span_System_Drawing_Point__.md&amp;value=---%0Auid%3A%20SharpNeat.Drawing.Graph.DepthLayoutScheme.Layout(SharpNeat.Graphs.DirectedGraph%2CSystem.Drawing.Size%2CSystem.Span%7BSystem.Drawing.Point%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat.Drawing/Graph/DepthLayoutScheme.cs/#L50">View Source</a>
+  </span>
+  <a id="SharpNeat_Drawing_Graph_DepthLayoutScheme_Layout_" data-uid="SharpNeat.Drawing.Graph.DepthLayoutScheme.Layout*"></a>
+  <h4 id="SharpNeat_Drawing_Graph_DepthLayoutScheme_Layout_SharpNeat_Graphs_DirectedGraph_System_Drawing_Size_System_Span_System_Drawing_Point__" data-uid="SharpNeat.Drawing.Graph.DepthLayoutScheme.Layout(SharpNeat.Graphs.DirectedGraph,System.Drawing.Size,System.Span{System.Drawing.Point})">Layout(DirectedGraph, Size, Span&lt;Point&gt;)</h4>
+  <div class="markdown level1 summary"><p>Layout the nodes of the provided directed in a 2D area specified by <code data-dev-comment-type="paramref" class="paramref">layoutArea</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Layout(DirectedGraph digraph, Size layoutArea, Span&lt;Point&gt; nodePosByIdx)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>The directed graph to be laid out.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Size</span></td>
+        <td><span class="parametername">layoutArea</span></td>
+        <td><p>The area to layout nodes within.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">Point</span>&gt;</td>
+        <td><span class="parametername">nodePosByIdx</span></td>
+        <td><p>A span that will be populated with a 2D position for each node, within the provided layout area.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SharpNeat.Drawing.Graph.IGraphLayoutScheme.html">IGraphLayoutScheme</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Drawing_Graph_DepthLayoutScheme.md&amp;value=---%0Auid%3A%20SharpNeat.Drawing.Graph.DepthLayoutScheme%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat.Drawing/Graph/DepthLayoutScheme.cs/#L45" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

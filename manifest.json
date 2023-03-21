@@ -1,0 +1,4457 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/GITHUBDESKTOP/sharpneat/src/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.ArgUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.ArgUtils.html",
+          "hash": "cuuqMb8Cx3dzpuDNOzXsxjZ3r7uQhAyesYYZFRZAy70="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.EvolutionAlgorithmHostClockTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.EvolutionAlgorithmHostClockTime.html",
+          "hash": "sgd8EPYSZhkxuNpjgtueT6bPctyvzHHXbJbNN2Cte2M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.EvolutionAlgorithmHostGenerational.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.EvolutionAlgorithmHostGenerational.html",
+          "hash": "9mhinkgRyelaDIm5yx5E6Wj/fH5ZuK+++7a50pbWs1s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.IEvolutionAlgorithmHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.IEvolutionAlgorithmHost.html",
+          "hash": "yhlVy/wAQKWIvDjiPZ29cYp3LBYLWT9HHDnn4XJywaw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.Sample.html",
+          "hash": "4cqBj3D2JcXIqde3hv5h8uHi3d89xb6eNy/R6joSQP4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.StopCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.StopCondition.html",
+          "hash": "6gkfuHDUsoz14F0r+LjgE98C32lGrrg7CVgFMxXEVjo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.StopConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.StopConditionType.html",
+          "hash": "5hlyypKBXT9mlREv4MxRr2ZOswnhICE1np3SHtXy6Z0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.SysInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.SysInfo.html",
+          "hash": "0ZRpYEtTFIdydBdnkOtZsX19GClnMjLMJd0UL/2j4L0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EfficacySampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EfficacySampler.html",
+          "hash": "RvDf0WsACsL6xXDNY8ijbP8XzYWEhZo1llME1dd2RCw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Benchmarks.ConnectionSorterBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Benchmarks.ConnectionSorterBenchmarks.html",
+          "hash": "uS9Mq7ddo3BQfnEHotgm0CDbXrjdlzIYMF6uO0LGqec="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Benchmarks.ConnectionSorterV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Benchmarks.ConnectionSorterV1.html",
+          "hash": "PJrUDtrwFegKfqo09IuwHPOlxVI/Y051zch7rkwttAM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Benchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Benchmarks.html",
+          "hash": "lZb0oZLrBsi7hvUAXs8CFwd6lft76CLFmCtqpqFLuP8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.ConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.ConfigurationException.html",
+          "hash": "O3rb3hOY5UOTxVdWH7fpAH9QCC8F32Dgxr/VL9Ov85Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Domains.FunctionRegression.FnRegressionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Domains.FunctionRegression.FnRegressionControl.html",
+          "hash": "wDp5rIJNWnhonuEI8Jpy/WHB/Y3cYK3wXc3YBELFuSI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Domains.FunctionRegression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Domains.FunctionRegression.html",
+          "hash": "a3+pqzjPiPj4+6PKy5s/R3Qpu8sJx3iSgFgJw04Q/ck="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.DirectedGraphViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.DirectedGraphViewModel.html",
+          "hash": "JW5Z6TzZM3exkF+6dbeUAiP7zoP/Mk2FP7ls4H/5VZA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.DepthLayoutScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.DepthLayoutScheme.html",
+          "hash": "VYyEMS8jXqQmIhxJ9OLbx9g8SrMhfHjPP7Kn6OYPSMI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.GraphViewportPainter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.GraphViewportPainter.html",
+          "hash": "ADimTe/iK3z4abSh2JJ2ss7XccQP/7UXIpo17ulayRw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.IGraphLayoutScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.IGraphLayoutScheme.html",
+          "hash": "retg5+AWB9NREMeYWkFHD+sFErhbmcWQHSJnOuzM2NE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.Painting.ConnectionPointInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.Painting.ConnectionPointInfo.html",
+          "hash": "Hp7MtTykhDOValj/NBjypYFkjPdCHaKTPpmElXzzJPw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.Painting.GraphPainter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.Painting.GraphPainter.html",
+          "hash": "WPwMXUWbY/L/alD+FZv2rzWnC5CndkAu8jFx9PMqEcg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.Painting.PaintState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.Painting.PaintState.html",
+          "hash": "NkzWPa7SLNXAdZ9RrNPECCL2SZnmgCxD7V7hmnpOofc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.Painting.PainterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.Painting.PainterSettings.html",
+          "hash": "OVTbe/T7hlurbL1dTF3DVbU91cbAhlDnjgdgyxRuj6I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.Painting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.Painting.html",
+          "hash": "BXYfZyv4oJ6O/s1YiV4Uxk0sieGLgb6JvBnlcq89Fxg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.Graph.html",
+          "hash": "1D+WuMN4N31SkRg5r9bbuWIvss082xgI97V9ZDYs0Yg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.HSLColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.HSLColor.html",
+          "hash": "P3AWMXV/fYz5Aly0IoVgcGqBYIA0L/NFgTXWAJz2ld8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.IViewportPainter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.IViewportPainter.html",
+          "hash": "CuJkGWRXdcLRxWuyr53HfkX3DTxGnm7/L+wnp+kOmgo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Drawing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Drawing.html",
+          "hash": "bcM2asbZs46v5MQ4QePcMusUfcsSM/TgccCkhI8c15U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.FitnessInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.FitnessInfo.html",
+          "hash": "FB2SX6VwXjZY3PwvPHPQWee99VNKQuAaA2uj3vIWhg8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.GenomeListEvaluatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.GenomeListEvaluatorFactory.html",
+          "hash": "soFgaTpTXSgCef0GiYTpUR0gQPEALTjnz+4kY7zo1cc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.IBlackBoxEvaluationScheme-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.IBlackBoxEvaluationScheme-1.html",
+          "hash": "cXBUXIBJtWz9GH+iWSiuwdJGMEiBET1w61XRQ4fVF28="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.IGenomeDecoder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.IGenomeDecoder-2.html",
+          "hash": "umVNbf3WafjMg7b/QydljWNAYAg89MTIbFN/C5BwihA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.IGenomeListEvaluator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.IGenomeListEvaluator-1.html",
+          "hash": "vD8rYNnv3YuH6L+Y6pMIIC49hmZbP+TOJuA19ONI/h4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.IPhenomeEvaluationScheme-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.IPhenomeEvaluationScheme-1.html",
+          "hash": "k5PF7SJP9DsyfXKDhF34Mgb6x5iFDl1M3BMuMgGMENs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.IPhenomeEvaluator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.IPhenomeEvaluator-1.html",
+          "hash": "CjsQN+bzOAgS25qKJLA6O97w2DjuSmL4IharsCCiNA0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.IPhenomeEvaluatorPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.IPhenomeEvaluatorPool-1.html",
+          "hash": "yhoXHrhw5Dhlq3xfTcN+HOhvsI0RTCFvAiFy4HOQxPM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.ParallelGenomeListEvaluator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.ParallelGenomeListEvaluator-2.html",
+          "hash": "2pPfaPMX19KujEjlewZE3p0WNOiel6p1W4nRWmalwzs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.ParallelGenomeListEvaluatorStateless-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.ParallelGenomeListEvaluatorStateless-2.html",
+          "hash": "nnMCYsvvu2nOX/9KN4ZFsvo8Jw0jGJKnO6QCFiD9E5s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.PhenomeEvaluatorStackPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.PhenomeEvaluatorStackPool-1.html",
+          "hash": "mdqexgWG18l9V41LhfBlXXZzfxXq5FMgx7dMv/M+Nlw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.PrimaryFitnessInfoComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.PrimaryFitnessInfoComparer.html",
+          "hash": "d0lWThalE8vfs4B1XKAxcKKL4S6yheJJFkhNhscBm5s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.SerialGenomeListEvaluator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.SerialGenomeListEvaluator-2.html",
+          "hash": "wN0ajMolJp5cyCif1hzyR455wuxSYdZKdtlAyHb3pTo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Evaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Evaluation.html",
+          "hash": "9nG66NsXLGOwgYjBYe7GdFRlRG/iNWiBWeS45cQWobE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.EvolutionAlgorithmStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.EvolutionAlgorithmStatistics.html",
+          "hash": "5ThpmdgJT3hpwNosQ+dIuqu32AyV7cJFYWkp9OFRTvI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.IEvolutionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.IEvolutionAlgorithm.html",
+          "hash": "/ytV5Qf05y3xuQQtJNbmHPUvXbY4ErnJO9eAbO/2b5c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.IGenome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.IGenome.html",
+          "hash": "Fzg785/bkmVACG31FE/BcreMcutCwMX1UHFJDMP575I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.MockGenome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.MockGenome.html",
+          "hash": "VfcOyuf424KJYK2+H9TK0YogmPg4aeRSRzQrDbPhPNw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.Population-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.Population-1.html",
+          "hash": "FA+am8o+DtU8KFq4jZl/fw0vfAdqmEg2145wcxxnkOs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.PopulationStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.PopulationStatistics.html",
+          "hash": "b/uWuJk+CQS/nYM/0Y8NCJJodfCxkXxPvRjc6yEgr8M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.EvolutionAlgorithmRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.EvolutionAlgorithmRunner.html",
+          "hash": "zOUVBd/JnqJpKJIZ2WCw3ioA5ONY/Itx8le/jNYj9e8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.RunState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.RunState.html",
+          "hash": "p1ycasMywJaBspJrQdUosVLgoBEQWKceNuDQxWGX3ac="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.UpdateMode.html",
+          "hash": "qsfeZ4KPquM9MDIDqEauic3c0x5irmIW5E4l5n4wexA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.UpdateScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.UpdateScheme.html",
+          "hash": "P85Yg9+CHDvN5jYBg44roTO+QZw0AwfJtBPB9BhgGok="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.Runner.html",
+          "hash": "bsdAM0vuN0zOcrDr8+jpVyof0r0wDKpal3QvrEZ3DOk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.EvolutionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.EvolutionAlgorithm.html",
+          "hash": "bfUZR4b3pq6Fwm4KFplsrcsHZ0u9KD5hSLwd5JanZmk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ConfigModels.ComplexityRegulationStrategyConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ConfigModels.ComplexityRegulationStrategyConfig.html",
+          "hash": "0ntcESGmmPadIPIRL2k6aVh+GZtA2vDZnHBdZCvcQPI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ConfigModels.ExperimentConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ConfigModels.ExperimentConfig.html",
+          "hash": "JqA/AfgM0JKgAKa/kpS/A6+X903IXBx01MpXh0iZhlI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ConfigModels.NeatEvolutionAlgorithmConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ConfigModels.NeatEvolutionAlgorithmConfig.html",
+          "hash": "ZJOAkrPUv+8UQhmzDosIdH1/CiJ5esclDkjYVDVSVs8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ConfigModels.NeatReproductionAsexualConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ConfigModels.NeatReproductionAsexualConfig.html",
+          "hash": "vwEP7ih+cLVw8/HnU3NibG4AcIwHfpVEg+VMXUOnVq0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ConfigModels.NeatReproductionSexualConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ConfigModels.NeatReproductionSexualConfig.html",
+          "hash": "4QQqtA/14HXHYz4jgC52Q36wQbg1pwKSh1VfCYlYK8k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ConfigModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ConfigModels.html",
+          "hash": "wvwdJ8Gyw/z4U8+FiA+hucIYI/AXY/rOkFGAbvlKTj4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.INeatExperiment-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.INeatExperiment-1.html",
+          "hash": "Js9uyk2f2c0r6mgwFaqmpQarUhgm0D4RpmOOEv1bnn8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.INeatExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.INeatExperimentFactory.html",
+          "hash": "VidzxTCnCIVGbjA50Y1PScWV6Vtq0aaCeeMRJa+vPKI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.ModelUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.ModelUtils.html",
+          "hash": "m7iucR4TtIis04FHP2uJ7nwIKWip+ckSk8QH7gjT5jg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.NeatExperiment-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.NeatExperiment-1.html",
+          "hash": "tDmuMEmbo2QnKWiHjk9Sq6siWvHWSbVFVqo7zncJx5A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.NeatExperimentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.NeatExperimentExtensions.html",
+          "hash": "O0tRAe63kCO6dvX/q2bqPxNheBBCJFuZ5EVQ91aiLW8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.NeatExperimentExtensionsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.NeatExperimentExtensionsTests.html",
+          "hash": "PKbCBf99IbbQOiImwuqqvBz09fTRGXwm30pdJpb1D6M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.NeatExperimentFactoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.NeatExperimentFactoryExtensions.html",
+          "hash": "YJjcpYMkHpadJvu35zOX5TdQlIUnZXsyUgH3uuOzz/Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Experiments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Experiments.html",
+          "hash": "Ji9K3NqokxQQPmKvPnxM2MV/EFTurKf+noxBqhnQ0kQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.AcyclicGraphDepthAnalysis.html",
+          "hash": "vIiNTtBCRjs57rs1a548Pnr62Fa+qnvPcfeX+VZ+2Q8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.CyclicConnectionCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.CyclicConnectionCheck.html",
+          "hash": "6ge3c3zhgKbnNx69VDLOSIZUDNnafj0Y3IAg3vA3kF4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.CyclicConnectionCheckTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.CyclicConnectionCheckTests.html",
+          "hash": "1mKSdfEXIl/biuqDnbgx5cc0QFTW0++1dNG2erV2esI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.DirectedGraphAcyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.DirectedGraphAcyclic.html",
+          "hash": "dHRpN8zUuRb3ve0MDe53fFh5a1IE0NMs7s9iTkSgK+w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.GraphDepthInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.GraphDepthInfo.html",
+          "hash": "Dxhk0kt8xFn2U1NGtTS3BNXU7tpIz7VeF+olmJoTISY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.LayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.LayerInfo.html",
+          "hash": "YxCEaBLclLPe9whvAjO9g+3z7z+SRt+Asfplh86OHcs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.WeightedDirectedGraphAcyclic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.WeightedDirectedGraphAcyclic-1.html",
+          "hash": "wCkPNRNzlVF4UfwDwIQRFaDvulzW9VQABv2SFJ1HpHk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.WeightedDirectedGraphAcyclicBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.WeightedDirectedGraphAcyclicBuilder-1.html",
+          "hash": "PDXToH07d1be68PXi3lXryPMD/yZbdf0svlDfpFM44I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.Acyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.Acyclic.html",
+          "hash": "DJV6QQ1JL8mptJkbIpVjMCIIwbmVVl1lqABKtRZjPrA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.AcyclicGraphDepthAnalysisByRecursion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.AcyclicGraphDepthAnalysisByRecursion.html",
+          "hash": "4dxUQkieNJIyxoN4s+T89uStmeDqh8OqGGTHqK/Km6U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.AcyclicGraphDepthAnalysisTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.AcyclicGraphDepthAnalysisTests.html",
+          "hash": "IcATs894b3WCEE6xVwcoh7UGvRkiVZVHYfeyQgSbPsA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.ArrayNodeIdMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.ArrayNodeIdMap.html",
+          "hash": "IZ+OirI/gNyfs1KVLfmc/4dRw9kFHP24njmUS3bwWQY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.ArrayNodeIdMapTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.ArrayNodeIdMapTests.html",
+          "hash": "49WZ4EQcMdqFqMQg5Oa4/hpubpSJYaGw0130cxyUsY8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.ConnectionCompareUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.ConnectionCompareUtils.html",
+          "hash": "VHeBBoxvWIhIh/RZz9lcF5OmarpYEsi/MOIIbRhGYns="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.ConnectionIds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.ConnectionIds.html",
+          "hash": "YCP7+Cd/mRxiuC7Of9kNqHRQYCBjcO/VqIrFtCGddp8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.ConnectionSorter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.ConnectionSorter-1.html",
+          "hash": "LX2txKVGGieM6Dqg96DQFijmWEWYnFJ3mWZx6Uw1wX4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.ConnectionSorterTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.ConnectionSorterTests.html",
+          "hash": "+LzwNid9cvxLnUuwhquEk/qP1DimS5lhvhRO7SANKOg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.CyclicGraphCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.CyclicGraphCheck.html",
+          "hash": "nzV5BMaXJrvmii089UTNcTf8i7GI4pUYot21t82im0Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.CyclicGraphCheckTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.CyclicGraphCheckTests.html",
+          "hash": "gweuKLbR7YGiCbwZJ6SmGa718cDJ3LRnv/gTNvh3b3U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.CyclicGraphDepthAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.CyclicGraphDepthAnalysis.html",
+          "hash": "SHz7b+YHFRXSZWXQnKT7DW9Z3uv1Sp7PUv7EvWHMmQY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.CyclicGraphDepthAnalysisTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.CyclicGraphDepthAnalysisTests.html",
+          "hash": "Mqp/hdR1S/8Ug8a+4Z0ujT7RD2/IWlKpKQ6mrnPZdP8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DictionaryNodeIdMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DictionaryNodeIdMap.html",
+          "hash": "VJ4KV3LdrjwlNZMANi4BQweeIkiYoq1uHTeynEOTT+Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DictionaryNodeIdMapTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DictionaryNodeIdMapTests.html",
+          "hash": "GxK+sFlQjP0+TntfkxLdw951/riQxzeVNQrC+9bEDUQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedConnection.html",
+          "hash": "5ia8iGxPIUHpsh7mRBKLm/vL7gcu7DD6GGtGISkgmUs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedConnectionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedConnectionTests.html",
+          "hash": "d/TMjpetWwxBR2hyun9p82I8EutUBA9EFdXWnwX34Vk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedConnectionUtilsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedConnectionUtilsTests.html",
+          "hash": "PWakHT+IkjGnACV7jIkXuVXS/D2XUip8TMDF38GAD9c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedGraph.html",
+          "hash": "1IkG5/SUyvhN0U4ezoC7CwZyQ6uy44XtYbM/9UCV2AQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedGraphBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedGraphBuilder.html",
+          "hash": "LdUoFiLOpjukYuRceGu/AEduYNBfGfAVVSBbqYiohL4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedGraphBuilderUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedGraphBuilderUtils.html",
+          "hash": "a08FTqlcKG/dUOgASiCn5B92Y38v5D+56oBwmMvtgBc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.DirectedGraphTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.DirectedGraphTests.html",
+          "hash": "Qdgx4bsju6uwFvzhRZPz1UcT62jJ5O4ojCUcP02Eyu4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.IActivationFunctionLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.IActivationFunctionLibrary.html",
+          "hash": "WtM5F3VwIVpvbuYh5g8bMzZMzVY7Lnvgca0KVy0FN2w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.INodeIdMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.INodeIdMap.html",
+          "hash": "VDwhJbvF/JgCgptCsLvi/IAsG5jmbT8Rntd7r61HTLE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.NetworkUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.NetworkUtils.html",
+          "hash": "fEFyUIRJt04DsO4P1Z/rIxvID/t/dpe2AhoE+MDDzl4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.WeightedDirectedConnection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.WeightedDirectedConnection-1.html",
+          "hash": "XeWp0bRy6rgCKW100E1fI1QokcUYDxeS2TnGErE8T3A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.WeightedDirectedConnectionComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.WeightedDirectedConnectionComparer-1.html",
+          "hash": "IGtPrun1V91p8X6hyby+eBVnwR7XbI5TjUfXdKh1OhU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.WeightedDirectedGraph-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.WeightedDirectedGraph-1.html",
+          "hash": "yqc62ZvvasBIgUUkMf8VaPPXJ4NzR1r4cJRk0R3/LDE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.WeightedDirectedGraphAcyclicBuilderTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.WeightedDirectedGraphAcyclicBuilderTests.html",
+          "hash": "J0PN/lzAp07fF0bB9UKTA8leP+m08ak5WNyHJNreIDs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.WeightedDirectedGraphBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.WeightedDirectedGraphBuilder-1.html",
+          "hash": "yAEvh4u4P5JGZXs1OoFuTWlRLAwlLARydsx8pT2/aUE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Graphs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Graphs.html",
+          "hash": "FJU/moVUlAfsrJeVn+bfI6mKVLqXOCg50KIYwCQzvtI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IBlackBox-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IBlackBox-1.html",
+          "hash": "V3qGnQh52wO3QCqhedyZSFk5sN9niTJMGTZIb4aHSnk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.FileFormatException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.FileFormatException.html",
+          "hash": "j7icxGsk6MsDwNupWmCqewB7SeI6vq5eXKRYUOtc9iM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.JsonUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.JsonUtils.html",
+          "hash": "P7Q+B8kn44kwm9kBXRNG/0B0HUbFck0NlqPnp8MiFXE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.Models.ActivationFnLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.Models.ActivationFnLine.html",
+          "hash": "KtzjPZbOcvlUufko9ALvMKN5n6q0H9XZpqGMBMVxiUA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.Models.ConnectionLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.Models.ConnectionLine.html",
+          "hash": "JAiuj2FQYz+9SF5iigjE8EBAhrCSPs7iZ/6brkUEXx8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.Models.NetFileModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.Models.NetFileModel.html",
+          "hash": "UVebU4RZb9dg5Mz4tS4r1t4YVjc5D3TJ2iphl3zn/TQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.Models.html",
+          "hash": "pLMJGpADAHp5PRGnGUkWyIWWUePHuEmEz0zE1plZJOc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.NetFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.NetFile.html",
+          "hash": "aCVb6OMVGiD/5qTGLU7Bdxd3Od74cl5jjeH8OwTQ5So="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.NetFileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.NetFileTests.html",
+          "hash": "BmGPwWRObeoA/PRbyeTXEjLy036MGS0lvhJGaWB6nBg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.IO.html",
+          "hash": "Pi2pwQ8f5olHsAw9XerreveNYpRb2VFV8TJsATsDxYs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.AddedNodeBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.AddedNodeBuffer.html",
+          "hash": "zWtD+VL1WpIACcxI6R77+Dy0rYgI69noAI33jN4yd40="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.AddedNodeBufferTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.AddedNodeBufferTests.html",
+          "hash": "tvrr/X3g/MefZEJl13/ZtYutbAeMvPTBueXc08yzx4k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.AbsoluteComplexityRegulationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.AbsoluteComplexityRegulationStrategy.html",
+          "hash": "/Bb6YQxa81mpEIK4dDS8We1PNRHxHjQel9ql2ZZjXlA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.AbsoluteComplexityRegulationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.AbsoluteComplexityRegulationStrategyTests.html",
+          "hash": "qXcGFQ5BNRZ0KZ1m6FdYNXwS56rcT44Ig9fU3cQDbxE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.ComplexityRegulationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.ComplexityRegulationMode.html",
+          "hash": "uw7fPPhvgG32DFpazHNReY6v1nDeLzBJDCS5wTDieIo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.IComplexityRegulationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.IComplexityRegulationStrategy.html",
+          "hash": "cYxJsN6j6fC+NLz3SUBqft0wS6JppioZlepP/nqgVYU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.NullComplexityRegulationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.NullComplexityRegulationStrategy.html",
+          "hash": "O9lLmww0G48s/s/45XEzmHztZx6vzCCZJKSIbSlZ8cw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.RelativeComplexityRegulationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.RelativeComplexityRegulationStrategy.html",
+          "hash": "YY2kRbKSQlpR5tzzVPzz/H3SZD1woGB7n+VQjue49RE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.RelativeComplexityRegulationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.RelativeComplexityRegulationStrategyTests.html",
+          "hash": "173XXz0HdlxMlv2fIyuoI87lvlDFMK1gRBG79eNERwc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.ComplexityRegulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.ComplexityRegulation.html",
+          "hash": "FQ1sRhxAVj1UUBWe1+JpH96xReL79VuiPlw7pcETa8o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.DistanceMetricExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.DistanceMetricExtensions.html",
+          "hash": "Y6aih2KUXu5BZmivkV04M4qNZlCDnD7JNme0foywtHs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.DistanceMetricUtilsBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.DistanceMetricUtilsBenchmarks.html",
+          "hash": "LBiKB2DyFlw0viTw24DCNODYX8/zSyXCNi5gwLCt3oU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.DistanceMetricExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.DistanceMetricExtensions.html",
+          "hash": "fYT2krr9e28vxatFM9JafGG6t+tLa0T+VRlUl5U4ja0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.DistanceMetricUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.DistanceMetricUtils.html",
+          "hash": "2MLu+Akarqaak5j6uXDkYa9/GEdm/c6cDT3kqMSem6U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.DistanceMetricsUtilsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.DistanceMetricsUtilsTests.html",
+          "hash": "pCaF+Hg68dPFI2MOHE3LqzF4accU4zZmaUB7+dGmfT4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.EuclideanDistanceMetric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.EuclideanDistanceMetric.html",
+          "hash": "kQ99oNfMWvE4mQpejsmEOrWaGLsEk7gf7nD4LVMuZek="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.EuclideanDistanceMetricTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.EuclideanDistanceMetricTests.html",
+          "hash": "ixlpQSNZH2EoYDjrH6R0XD19/1o23Gfx8q2Lt0fkcHc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.ManhattanDistanceMetric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.ManhattanDistanceMetric.html",
+          "hash": "NcYpOYuNVE9rlQqN4lwfTwTv0K/xMo3rwFJkxNina8k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.ManhattanDistanceMetricTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.ManhattanDistanceMetricTests.html",
+          "hash": "RWTC+Ll73E/ViAOawh9aMMJj5/k+MDcrUJkZaN/LijE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.Double.html",
+          "hash": "a/JbRXhE5UADL2aUDkIkr+xDDjAq0SYYbRPX+f2lF6Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.EuclideanDistanceMetricBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.EuclideanDistanceMetricBenchmarks.html",
+          "hash": "f3NN+HdJPGjV/p/PNZJrwJUzJpsQZtUb6nTUOkKUx1I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.IDistanceMetric-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.IDistanceMetric-1.html",
+          "hash": "8wE5jbER2sQpHR4N8IwavwfVLC9E2oZCjTFOjGXo0go="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.ManhattanDistanceMetricBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.ManhattanDistanceMetricBenchmarks.html",
+          "hash": "eH4TipyydJE8zsV/l7ghnFh/qn/c8iWBWoUM763TnVA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.DistanceMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.DistanceMetrics.html",
+          "hash": "Q0Ej9xNbMzFmuRAZxiqg0TGtO9gdCFn9W/eH4D3kzD0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.GenomeComparerDescending.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.GenomeComparerDescending.html",
+          "hash": "RczR56ZIzVB+OscjgtE9gnb8i5ucMYeReaGwOTaWeX8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.NeatEvolutionAlgorithm-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.NeatEvolutionAlgorithm-1.html",
+          "hash": "StI0U5aUHAedb7dj196+UQQcNPoDjBjCT7kpf1W0BOI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.NeatEvolutionAlgorithmSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.NeatEvolutionAlgorithmSettings.html",
+          "hash": "B8BA44yue/+OtfrP7QQsDlT4CyXuU2+CfOCo7HPT2sk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.NeatEvolutionAlgorithmStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.NeatEvolutionAlgorithmStatistics.html",
+          "hash": "9O/VwG6FIrf1UlzEV63soJkCKvx9cbkPKYW/Tt+qfaU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.EvolutionAlgorithm.html",
+          "hash": "mz5TRl4qQfPc7jlk1ODXqVbzT0oAcyl0AtKn83VlzKM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.ConnectionGenes-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.ConnectionGenes-1.html",
+          "hash": "PuHnMcMfH6xgWXPcNm2Tr5f9m7UQ11hboiTRlPz2gJQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.NeatGenomeDecoderAcyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.NeatGenomeDecoderAcyclic.html",
+          "hash": "IYjjAX8YFUwzhH7Yx7vtipjlsyk21at5BElLxJQLXX0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.NeatGenomeDecoderCyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.NeatGenomeDecoderCyclic.html",
+          "hash": "OsJ698C508GYEIpOm+9YHuQKHiBBDeepI6oUWIYcCK0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.NeatGenomeDecoderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.NeatGenomeDecoderFactory.html",
+          "hash": "hWaNYjHCIJYsgk7RoWAKB8kA+cZ7R3PjQFDzWg2XJeg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.Vectorized.NeatGenomeDecoderAcyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.Vectorized.NeatGenomeDecoderAcyclic.html",
+          "hash": "S43fXMmcWvLQeoCSxW0Eibv1V/IQSKDvdS5RvxTu+tA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.Vectorized.NeatGenomeDecoderCyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.Vectorized.NeatGenomeDecoderCyclic.html",
+          "hash": "dtDtY2Rce5M3BKXMs3U/gibWgjLTTUAlN9grOqilHc0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.Vectorized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.Vectorized.html",
+          "hash": "WbO6/9j9sIo9ya6yDTwfHWK+GV5wR+PIrjbyD/D46aw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.Double.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.Double.html",
+          "hash": "NNGG6MYSwj3ibfnpNfwReygiDQ7hx7IaIKpkHk61ddc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.INeatGenomeBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.INeatGenomeBuilder-1.html",
+          "hash": "fqkkmscsMF9YAUavZK9CoRInRl/xMphZ2n8MPBDIwLo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.IOTestUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.IOTestUtils.html",
+          "hash": "C5Tj6iuhresVyaLuDTejASU82QF5lX5VXoMExF68Lsc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeConverter.html",
+          "hash": "ud0weytfwTaY/PBtkqAFquWmj1soWM3LFAwLl3C1gdQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeConverterTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeConverterTests.html",
+          "hash": "1hpR6JOGe0ilQaKInJwI+1QVgrL3ekevoL46eGPnNb8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeLoader.html",
+          "hash": "5MaKVMxQl9MZUjqQkZnGBSbsoOmolQ7YjY/im0sliMA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeLoaderTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeLoaderTests.html",
+          "hash": "e/mFUL1sabw9dRkizhlt81Y+vyzIswhZ36/9l8XgTCs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeSaver.html",
+          "hash": "qRkgNkGbvcxiVBo6+fqUlwM6NYuuKweNNKjeD9Nxi5E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeSaverTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatGenomeSaverTests.html",
+          "hash": "z3UcbysYlTwxi7edXDk5/Zorxpv199sNh64chH57PS0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatPopulationIOTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatPopulationIOTests.html",
+          "hash": "3fM/0l7IgvaLrzBhDxTlyr1Uq4aRhfzacBV1kgOXoos="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatPopulationLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatPopulationLoader-1.html",
+          "hash": "zwKer3d9R+q3WxtBInPrN3216BLWaEkb5qZcoqeyDJg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.NeatPopulationSaver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.NeatPopulationSaver.html",
+          "hash": "pMx6/O7DIIQzi2liJDr3FOd6OKjPxzb3ivtd+dkmI9w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.IO.html",
+          "hash": "xb3qAtReF0R4A9M8X5JLXi6E8PkPMVr78/hP3ELJQJw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.MetaNeatGenome-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.MetaNeatGenome-1.html",
+          "hash": "mP5FBPYx57folBUHsSo3qPQfBx7v4SW/jhucaOXqUzk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NeatGenome-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NeatGenome-1.html",
+          "hash": "3/LzyjVhTt8wRUaeUza+vgBkRxlN9KzG4n7Y4cxvsCg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeAcyclicBuilderTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeAcyclicBuilderTests.html",
+          "hash": "aX7CvhwVuWbz48Or8j9v5ksqrsXLwTXVBeHD1kZY3kI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderAcyclic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderAcyclic-1.html",
+          "hash": "46pNNzJWTfTcnyoRBCB/znthUZBcfzdoKqD4gSd2u7s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderCyclic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderCyclic-1.html",
+          "hash": "d/TuZZUPtH64shqW9BhsSAvkzQCOpvcqWS5rpKwKJek="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderFactory-1.html",
+          "hash": "mTAlE4EhZ5aH78V6UvtQrOm2AoDkR6URDtYh45/c/kA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NeatGenomeBuilderTests.html",
+          "hash": "pHGWtV/5OnwXE/mGz0m2yZRBlyGkHr6MrQSk7iTRZug="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.NestGenomeTestUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.NestGenomeTestUtils.html",
+          "hash": "5ev1WKkBgniWeg0DIGLQ/xGIX/9Uz7kHj7/9zshfknA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Genome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Genome.html",
+          "hash": "c00KRk7YwqvN764fMqveu0txUcJ9kGPErBLaYGxtQCo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.NeatPopulation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.NeatPopulation-1.html",
+          "hash": "RfNOJ+nYsmjlMimW7d8LzTpVy7pFE1zeLSRfBkhmmIM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.NeatPopulationFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.NeatPopulationFactory-1.html",
+          "hash": "1moKrvxMT+wC/xQtIBvdGfGmJFTjZkyBfL8cLPygFMo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.NeatPopulationStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.NeatPopulationStatistics.html",
+          "hash": "+4I2Wz/I+JgNJFWi/FsMmLe0zmMM1Ui3Vi3FVD2Xkgw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.NeatPopulationStatsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.NeatPopulationStatsTests.html",
+          "hash": "rhE0hycSHhiDRBLqG8d7/7QXmDPAwZj4QaUeyf+KJRk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.NeatPopulationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.NeatPopulationTests.html",
+          "hash": "yqGxnmTdcU+9onUXpVLQ+foFVn93s/5BObgF670rcpw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.NeatUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.NeatUtils.html",
+          "hash": "T5bGQgzu4pq6rA7joP8XpTsNP+sJjYpYJyz0Yjt4cm0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.MutationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.MutationType.html",
+          "hash": "0CaSA6PNycqIVL0SjUunW+0RQy2ZIMLlokPq6apFYts="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.MutationTypeDistributions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.MutationTypeDistributions.html",
+          "hash": "D450l7S31xCZ1rukE1Frd6n7N+kUPo77XadY3A2rp0g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.NeatReproductionAsexual-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.NeatReproductionAsexual-1.html",
+          "hash": "8RRzEupKOa4057gHfbP8jLQPuk6ugPhh5xlepTVvvTs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.NeatReproductionAsexualSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.NeatReproductionAsexualSettings.html",
+          "hash": "yIIol7DP0KdfkuRfJ9AfJuTSqL6xvvJ7QEiq9Jh/oMg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddAcyclicConnectionStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddAcyclicConnectionStrategy-1.html",
+          "hash": "yCQ5ti72phoXNeRJPcnVm66HgCyRGGlJdl5zzz4bqYs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddAcyclicConnectionStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddAcyclicConnectionStrategyTests.html",
+          "hash": "bb28eGrDxSib9dcZJ/9PlL9Yf2+em3Pf4odX/fI5H9U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddCyclicConnectionStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddCyclicConnectionStrategy-1.html",
+          "hash": "8n6M2HYX0LVKiufMO0yrSTbHlumI8ih9LrMfN7qwMjI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddCyclicConnectionStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddCyclicConnectionStrategyTests.html",
+          "hash": "kUpLvV+s5rghKlBnyuKMmu5E/5cirsbibSfkeF8KaeA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddNodeStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddNodeStrategy-1.html",
+          "hash": "i2KbGDL1HsEwoDUi1EdWlhvl5+21iVcE0sFLF0js/lQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddNodeStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.AddNodeStrategyTests.html",
+          "hash": "p4sPMkdSGoyZ8aU67yhvyEEvBZ6Ac+DpsYJuTz7y7/Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.DeleteConnectionStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.DeleteConnectionStrategy-1.html",
+          "hash": "MITv2+68djN8igThwQWPNg3iArJth/c18+GRE8eqjuw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.DeleteConnectionStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.DeleteConnectionStrategyTests.html",
+          "hash": "pEyeAiEkY75FNimpigFRaQH1wbbkzA3ppNbVf1swNOQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.IAsexualReproductionStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.IAsexualReproductionStrategy-1.html",
+          "hash": "nzvGE9ZpMZh7VYNwaKmk4mpaaw7fK2arCQCNMUsPCaA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.MutateWeightsStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.MutateWeightsStrategy-1.html",
+          "hash": "wdCRBRtXLY42fWqChRI9uuOvICawXh97fUkjm2ywMgI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.Strategy.html",
+          "hash": "uNloqA42vDPbmurBpSM6Sr9gHqnswhePr9RsZdp7Rtc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Double.DeltaWeightMutationStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Double.DeltaWeightMutationStrategy.html",
+          "hash": "cHxxmklZG/adOzknLkmcoHR396R1Le5Esx6kNDItVfM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Double.DeltaWeightMutationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Double.DeltaWeightMutationStrategyTests.html",
+          "hash": "She/nf2j6w780HnwIjt3V64TL9pljLDTFAmavGE146Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Double.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Double.html",
+          "hash": "TKbZQG+PKUV0bpevZDHOkJ+ymc1/KIll/ghCGf4x1Uo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.IWeightMutationStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.IWeightMutationStrategy-1.html",
+          "hash": "q5ypUwKdmb2B4q3GhnLUyk+5uuMMrHtcDAVUUVSAhBA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.ResetWeightMutationStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.ResetWeightMutationStrategy-1.html",
+          "hash": "HJ64WLhZAm/YYOLiCGoxqiUW1e/VftipRsZwsh1XIPI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.ResetWeightMutationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.ResetWeightMutationStrategyTests.html",
+          "hash": "AzAvnTG36qOisC80JlzoSkCqSY89AjquCHFyr0H7wnA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.CardinalSubsetSelectionStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.CardinalSubsetSelectionStrategy.html",
+          "hash": "GidhjF76p/E46jFerczmBNLzIOzwhEa6TfunKWGgbZc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.CardinalSubsetSelectionStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.CardinalSubsetSelectionStrategyTests.html",
+          "hash": "vt7iE2mAPbp024S4dkkhocmsslQQy6CtaVciWeHMH+s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.ISubsetSelectionStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.ISubsetSelectionStrategy.html",
+          "hash": "Yk3I0XeLtGsr9uca6C5EzdpJ9gaN4thFDGii5p37qhs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.ProportionSubsetSelectionStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.ProportionSubsetSelectionStrategy.html",
+          "hash": "pTO4AHBDnYfnKnKcb+9jw/HE2+/Ia6TU0SkMIqiwM/U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.ProportionSubsetSelectionStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.ProportionSubsetSelectionStrategyTests.html",
+          "hash": "PiDb66IOD2JX2Fecvjt2f5oBEGMk89ZFfkt8Ca93iDs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.SelectAllStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.SelectAllStrategy.html",
+          "hash": "FsUrrg/FtC+PzV6pTG+31wJregtRrTBVNuluTlxIeoE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.Selection.html",
+          "hash": "C7uQr0Sm2BdFqbXHrYw0K2EsFkiZRzfCJxh3zpgfV2g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.WeightMutationScheme-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.WeightMutationScheme-1.html",
+          "hash": "Ur6rlRzj8Rc3QhL7l0curf89+4p5TwMeGKqDkkcxmu8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.WeightMutationSchemeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.WeightMutationSchemeFactory.html",
+          "hash": "PPz9b2sDoBjaxYzo6CxoNAiY9JLKhin2BCAMgSS/CDE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.WeightMutation.html",
+          "hash": "Rim9zTgom2lVnriCPD8AOC7f99PgVaELq5duzw/A2+w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Asexual.html",
+          "hash": "6K22rK00pY+WNvFQG4EAA3XPvjkIc+ASERpc2BA+S94="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.NeatReproductionSexual-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.NeatReproductionSexual-1.html",
+          "hash": "ZDoXpKQdpE6n0L6Q9SUJ/dgfvqZVKWZC8/4cfWckgp4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.NeatReproductionSexualSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.NeatReproductionSexualSettings.html",
+          "hash": "JGYNY7RRi/vZdggk8sCXIHBiWu1vp6z3T60coEIGd/A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.ISexualReproductionStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.ISexualReproductionStrategy-1.html",
+          "hash": "1n4vjxG81V6aR9okKSL4wSQc9qzR/EnVkzR0wY/JSiI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.CyclicConnectionCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.CyclicConnectionCheck.html",
+          "hash": "bg4DiZkQb7CfBONaeswlSjImwb8g8scPHW84X4MWJJo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.EnumerateParentGenesTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.EnumerateParentGenesTests.html",
+          "hash": "xbOoIU9J01fNt1cNW7X5AwBatuzYTaZEqcNQM31KtJU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.UniformCrossoverReproductionStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.UniformCrossoverReproductionStrategy-1.html",
+          "hash": "cplGxTzE1eUfBnlgmFx1CqLIe8ZHNtpD6luuP+hwyPA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.UniformCrossoverReproductionStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.UniformCrossoverReproductionStrategyTests.html",
+          "hash": "cBBdu8UL0rhVIQbrIUnUqi5hwIPLBHGGpdFBUEyYxsw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.UniformCrossoverReproductionStrategyTestsUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.UniformCrossoverReproductionStrategyTestsUtils.html",
+          "hash": "o1Wj78zE7/8wadpPBXaE8hLCJ2aJiw+S2L735r5sGqc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.UniformCrossover.html",
+          "hash": "0ix53r6Cv/kko6s7Xr3+cZ/9/EUxF/M7Rq2+RkTiZ/A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.Strategy.html",
+          "hash": "f5SiqX05YFjAa8ty5yGBwQ0KuEo3gFjx+Lbmt04UJLs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Reproduction.Sexual.html",
+          "hash": "2JaAfUijqUO38erlUmQBXa5eXBWdZuT8cwB2wDf0fYw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.GeneticKMeansSpeciationStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.GeneticKMeansSpeciationStrategy-1.html",
+          "hash": "DnwO4v/L3wJSAdDdm0qaWa6oTf1xQbcYPgZ4jAnJmho="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.GeneticKMeansSpeciationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.GeneticKMeansSpeciationStrategyTests.html",
+          "hash": "HkPHCdQHek7XZWXp7gubPtuiOWvtX8MXDuCwdWS07Z0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.GeneticKMeansSpeciationStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.GeneticKMeansSpeciationStrategy-1.html",
+          "hash": "vW/lb0D/pq4Cudemy//iSrIgPRmGKiSKthSXdA94vU4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.GeneticKMeansSpeciationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.GeneticKMeansSpeciationStrategyTests.html",
+          "hash": "f93qYV67Zdlr9SFM6poNkSbWKpxfWYp2oB5XuBwXQ9o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.RegularizedGeneticKMeansSpeciationStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.RegularizedGeneticKMeansSpeciationStrategy-1.html",
+          "hash": "9v3ci6gjHcGQZEHpav2k3p3vdhcYRJw6fnsXvgqkgYA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.RegularizedGeneticKMeansSpeciationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.RegularizedGeneticKMeansSpeciationStrategyTests.html",
+          "hash": "sdfFQhjtw8ZSspwP/0aYIVXqtWz0wl0CWefx+O5djYQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.Parallelized.html",
+          "hash": "0lCcPNhrbFft4+m98na91oPYAQeUT4Wd9vK62mO3n50="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategy-1.html",
+          "hash": "vudmX5L9ojyIo5w7XSvKWeM+hHkex+hblz1Z/7IGqbw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.RegularizedGeneticKMeansSpeciationStrategyTests.html",
+          "hash": "cIu3Ubea8pRWQieRcCZagjzwOq7gKsjjwfwYyG2HW2E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.GeneticKMeans.html",
+          "hash": "t1xf+yiEpSekcj6kseXn5uiOuUD9h/gS842dXsW+Sb4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.ISpeciationStrategy-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.ISpeciationStrategy-2.html",
+          "hash": "ckPSJuiqQyG8zE0CSIwE1IFHoinlo+slt/MBXLGXZig="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.SpeciationUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.SpeciationUtils.html",
+          "hash": "BtkEqmn7g31YSYJKBWlr9Q2O+0YIKqCRm0qiilFcxhk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.Species-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.Species-1.html",
+          "hash": "rhzaD758fc/1XFQ6Vnuu6Tvs/Vt1Pk9Uy+fHaZaW5sM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.SpeciesStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.SpeciesStats.html",
+          "hash": "z1epr34lp7kixNjrVL/42xBS7VvZZVzeU/m0I4vVzCA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.SpeciesTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.SpeciesTests.html",
+          "hash": "kXwDCLePQIyyMlad+dgHImoPjVEEMLPmOa5fSJtv1O4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.Speciation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.Speciation.html",
+          "hash": "gF2gxjktqk8mXSzbjoOk6xU1BJSUK0Psj9gC4XS8iHI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.SpeciesAllocationCalcsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.SpeciesAllocationCalcsTests.html",
+          "hash": "sieDRFBV96HCFfkGixJ/TJ3aCjXwvFVbC4NOl8+XnMY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Neat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Neat.html",
+          "hash": "dY1QyKeCX/uzh7Le5WUgPJKIeFcA4GZlrjzepzNMAsA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.ActivationFunctionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.ActivationFunctionId.html",
+          "hash": "s1L/RcuRUDSdOzxY/GLWpX2/Smzrb/95Q+mmecDHmuw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.DefaultActivationFunctionFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.DefaultActivationFunctionFactory-1.html",
+          "hash": "eQsm6IkMZa45dD5vegKHtrdxFPZq8/kL3U28FCekUzw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctionFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctionFactoryTests.html",
+          "hash": "DfaPodonWQlGkjTIRRSH5TJXvbtOfdiomABmyL/NMxo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ActivationFunctionMonotonicityTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ActivationFunctionMonotonicityTests.html",
+          "hash": "+e8jrefamitc/Lxs3s8racp3vxLXTAiZtrBVPJ8uw/M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ActivationFunctionOverloadTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ActivationFunctionOverloadTests.html",
+          "hash": "JdAo1hj1id/OnOnQnCrjScVkziKwnf7w0c+m3xgHZ0Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ArcSinH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ArcSinH.html",
+          "hash": "48y5b/2BLbuzdNw1U0ZUizcSR7HmjlfPt05AmVfoKjg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ArcTan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ArcTan.html",
+          "hash": "wtbKaKaOeqAFh3A3SGYA/b7pMssu+37gJsT6MXPVmK4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Benchmarks.ActivationFunctionsBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Benchmarks.ActivationFunctionsBenchmarks.html",
+          "hash": "iEyNwk88HrvhDvoiWZ8On0XCqmVK0qhwu4bk+JTbBUM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Benchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Benchmarks.html",
+          "hash": "pxaI0kTZ3vyNdkR0uM+v7yLIDfW/M3wNy1Pt1Ks8Qwc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.BipolarGaussian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.BipolarGaussian.html",
+          "hash": "e7i3Ic0i7/Nv7Vjt0AJfgfEF/STYcEoxr2vcyQM+vgE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.BipolarSigmoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.BipolarSigmoid.html",
+          "hash": "w1007+m9P3JCS+J8EChGb8mCXIgKgsZ0lnR7YY6HhBQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.Gaussian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.Gaussian.html",
+          "hash": "P3KCC/ammuIP2Hk+ua6mExKRlYqVFWLPHSU/GndiMWo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.Linear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.Linear.html",
+          "hash": "2OI8LDpsdmzLjJY1o+NZr4BSw0SmT2TnMlzXNthcPj8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.Sine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.Sine.html",
+          "hash": "LwsuhqwRtBg+DF8mP0NZCtElEBu1Pf7NkEG2gJC/xLI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn.html",
+          "hash": "mQQ4/TT6xEVFBtTNjF5wbIvh1/b8e3+HZOtbjJhYN6Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LeakyReLU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LeakyReLU.html",
+          "hash": "cvB7jpRKKMzxMFSZF5Cd2MLjY0RppZ2evUgG+4Feauk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LeakyReLUShifted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LeakyReLUShifted.html",
+          "hash": "7LpinuOZCGfeq0irU3T1sGz8IqlRqc0QgQ5qT0PYp9w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Logistic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Logistic.html",
+          "hash": "9JVQcSKfAPQ/b03PmYh/o1Jq/zK4l8Fv4UWnDdnhEgc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LogisticApproximantSteep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LogisticApproximantSteep.html",
+          "hash": "ZEhcBIdWmLoNb45XvywivbLfi/sYXZjMgjmhuWUSiLc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LogisticSteep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.LogisticSteep.html",
+          "hash": "fJNqB9SrQ6IStEJ7aNl+x2Wbd/HrZPoy8r5HCwh8b+s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.MaxMinusOne.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.MaxMinusOne.html",
+          "hash": "nRtIzaRNGgzCeiBKRVTka1XFyU0+lJcLDCe4wDRSmEU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.NullFn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.NullFn.html",
+          "hash": "6LriyJ4QGmh7E3MOJe2tT81oGs0ezdVt6k/atjakoC8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.PolynomialApproximantSteep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.PolynomialApproximantSteep.html",
+          "hash": "CXqGfOwPL+dMutNA35G7OtaErZLRdsooqg7XT40xe94="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.QuadraticSigmoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.QuadraticSigmoid.html",
+          "hash": "mgIhmo5zgYhMoqzgCnqmGABz4pKGMvql/8HYwl7zUgk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ReLU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ReLU.html",
+          "hash": "0CCauoC2FZRX38s3S4MxOLC6OJKsRDqTJFD2j88S0Ek="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.SReLU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.SReLU.html",
+          "hash": "KHD+C9gz5CKtVrbom86CG9sEOSiUKBCYNtMZOY8HyLA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.SReLUShifted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.SReLUShifted.html",
+          "hash": "g6bY5HXTPHkgPNr1KoSW54KdDtlB3j2zFhGLi+FctfQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ScaledELU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.ScaledELU.html",
+          "hash": "zF0Ezx7tLiPxMIDZos8jyKBj7qruQIkvdb6nDlTiMus="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.SoftSignSteep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.SoftSignSteep.html",
+          "hash": "9aMlVm3lig1zcmrYEIgfrco2e208rsmVzZurhrUffEg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.TanH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.TanH.html",
+          "hash": "oAXY/mPIBc5oRMaa9N5XQMGMwnh212NOnB8bzikjzZk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.Benchmarks.ActivationFunctionsBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.Benchmarks.ActivationFunctionsBenchmarks.html",
+          "hash": "fGuwZNHpaIsAQRr0Gq8E0SBHxPfP0mWIgi2PYgpBXmU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.Benchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.Benchmarks.html",
+          "hash": "ZBScSEMk44WyOcRtzFc4sx+oUcA4mwRZzElq0QkRZUE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.LeakyReLU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.LeakyReLU.html",
+          "hash": "G8Wa5YH7IFOD9AqLxYxAMOx6vCV9yuMC/Xs8H6CHSgc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.LeakyReLUShifted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.LeakyReLUShifted.html",
+          "hash": "JcH9rh8hGHSUcM5/0PD2g69jl+656+ZXlX+9c1uDwe8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.MaxMinusOne.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.MaxMinusOne.html",
+          "hash": "32wN0W2BjmXaRk7Gux1j0LsEC0NQa3G8uMSMjuRx4G4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.PolynomialApproximantSteep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.PolynomialApproximantSteep.html",
+          "hash": "8K0tTfXs6E5bRrpVgKQ7hsyyRinGTbv047qYeS2+oKA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.QuadraticSigmoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.QuadraticSigmoid.html",
+          "hash": "r1jdnAkNSH0hw+BiUsal6vkFWMjxYkIhuah7u5deSlY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.ReLU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.ReLU.html",
+          "hash": "x8u3IlZRkX4oQl4kr+8HEqbYO2p8B/X3WUZGdAOzkh0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.SReLU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.SReLU.html",
+          "hash": "47NQVtxUXL/N9gPPkJxYq6aDbjQSqdm4mOSF5cR03Vo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.SReLUShifted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.SReLUShifted.html",
+          "hash": "MXnHeRKAVG+9O5PRdNh9h8tdv969Jk9IRPvDlVYBmqI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.SoftSignSteep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.SoftSignSteep.html",
+          "hash": "aV957WzKwLYTGl0wngJPtXEK1O3/JegMnpnqNWbWN8M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.Vectorized.html",
+          "hash": "jNkll97redVfp0MDIFslxBsue39j/kjGDVWpN3EG07A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.ActivationFunctions.html",
+          "hash": "VRIkMO7/HZbNdj7IldPlizrNw2au6IQXd68d5qYIuxU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Benchmarks.NeuralNetAcyclicBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Benchmarks.NeuralNetAcyclicBenchmarks.html",
+          "hash": "IicJ3IZaJsrHIrGY+mQWt2gDdDRk5ar6PTHwmxC0OSg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Benchmarks.NeuralNetCyclicBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Benchmarks.NeuralNetCyclicBenchmarks.html",
+          "hash": "YsUT9w9xVRGDJit183o3RKw/Qzo4e9Ad76/DF9Bjics="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Benchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Benchmarks.html",
+          "hash": "3cNwnVZE21M427fqG9m3eVG7S7qIv0t6y9d8oWzE8zQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetAcyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetAcyclic.html",
+          "hash": "HE/FAg0+5ELOJrE1RQx7i6IXotf7hkradW6OrzSb9a4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetAcyclicSafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetAcyclicSafe.html",
+          "hash": "K7lt2HqIQEIfgb+oH8sLkKSVebpidsi42Gs90W9Ljio="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetAcyclicTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetAcyclicTests.html",
+          "hash": "rPL2+Tl+/x3oQdIEquVrrhZAFX3hYGe5AVdHWINnkIQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetCyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetCyclic.html",
+          "hash": "Ih2zgLcsnLz7vYlmlXtK3reaLmeWJDdEzf0qg/zTqa0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetCyclicSafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetCyclicSafe.html",
+          "hash": "PxEP1hcxebm/aVYI+/nq0kOm+lgtEYusQX/asKcsOXs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetCyclicTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.NeuralNetCyclicTests.html",
+          "hash": "1GACjHdZlo976y2JbirM4nNB8y1tygYHuUaKsPMxWQ8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.Benchmarks.NeuralNetAcyclicBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.Benchmarks.NeuralNetAcyclicBenchmarks.html",
+          "hash": "Qnf3RbPjc8HopEvUfPa7xySWUDp0MB3aVF6KbcxJjJc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.Benchmarks.NeuralNetCyclicBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.Benchmarks.NeuralNetCyclicBenchmarks.html",
+          "hash": "tb2VcJO1Dn8gUpfTukHC9SDsMfVgouXMg81aZromLXY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.Benchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.Benchmarks.html",
+          "hash": "M9bBJQSh5uWUfoPJQjjR3Oye1v1rismaWmUArpzVa5A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.NeuralNetAcyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.NeuralNetAcyclic.html",
+          "hash": "zx6xBGmbZJWRb3GwtHegHLxsMuKMcb2/bu0UKB0HA6A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.NeuralNetCyclic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.NeuralNetCyclic.html",
+          "hash": "3MFtc43leX6bZ+KRvNQcEi60ev+OeDTSGjHQolLDDl4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.Vectorized.html",
+          "hash": "336UKOs0fWD/G7cmSUZh7mfl3PGIXhEmfgwSVJLwdRI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.Double.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.Double.html",
+          "hash": "D22yGlFTn4soP+eFuPJgnIu52yT6nXp4blMyzDzWnxg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.IActivationFunction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.IActivationFunction-1.html",
+          "hash": "4SrprohSn89UfyPlY22JUb/cl6vbrM2VB3/Je3MNagE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.IActivationFunctionFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.IActivationFunctionFactory-1.html",
+          "hash": "e0KxIHWFkwWGjZjuUqlTvtb750Km6w2Y1MWQ1p8X/HQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.IO.NeuralNetConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.IO.NeuralNetConverter.html",
+          "hash": "S3JrGNAO8OjV3cCsc35yX5OgdDvIUyqkgPQU8OjSiS0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.IO.NeuralNetConverterTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.IO.NeuralNetConverterTests.html",
+          "hash": "E2YrHpbjOBUuBflhZiz0C8m0kPLvopGGUbO/Xu2pK7U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.IO.html",
+          "hash": "2vrGmMpnk/yBeIXBxks8+9ACeIxpwrWkAKCzSlyYbok="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.VecFn-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.VecFn-1.html",
+          "hash": "DqKWOVIDJH0HMzO5Z1aS0mQckhK4Qr5K5s/B/xyOV54="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.VecFn2-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.VecFn2-1.html",
+          "hash": "BQyydeAbiIDSF1tIQOq+Y0MIF3yaIIlefXsFoxKLRsI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.NeuralNets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.NeuralNets.html",
+          "hash": "ws0MiarGfvcUpDmBOUud+iTb8OknFl194M5xFiDhwJM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Sexual.Strategy.UniformCrossover.CyclicConnectionCheckTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Sexual.Strategy.UniformCrossover.CyclicConnectionCheckTests.html",
+          "hash": "KbyXhzwCsPkwNVRmEp1CNcIxFeLqE7asQ+4TLE1efLY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Sexual.Strategy.UniformCrossover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Sexual.Strategy.UniformCrossover.html",
+          "hash": "pMeywPYZSguh0GdV+g3A9QqVAgU6RJbd+VPKmNZzGRo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Benchmarks.FunctionRegression.FuncRegressionUtilsBenchmarks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Benchmarks.FunctionRegression.FuncRegressionUtilsBenchmarks.html",
+          "hash": "fACwhbOgC7//uis38+k68xd/6VaIBiZSXCMr31uG9R8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Benchmarks.FunctionRegression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Benchmarks.FunctionRegression.html",
+          "hash": "crrswtuQXjDeOa52FDsTxi/dOI0Bfa/IKTnEWHFkApM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Benchmarks.PreyCapture.PreyCaptureWorldBenchmark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Benchmarks.PreyCapture.PreyCaptureWorldBenchmark.html",
+          "hash": "yY+f0Qe47UTNpH7x2Nt/XXkRmmuvg1aZDgkifphP2gA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Benchmarks.PreyCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Benchmarks.PreyCapture.html",
+          "hash": "jtTxFD3uCXhIlUrgsvUJExsiXRW5kriArC82DHknANQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.BinaryElevenMultiplexerEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.BinaryElevenMultiplexerEvaluationScheme.html",
+          "hash": "a29PFnXdpA4RMREjeOh41qJ+XsE75Cd3r4Kuz4S6UWA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.BinaryElevenMultiplexerEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.BinaryElevenMultiplexerEvaluator.html",
+          "hash": "Q3IXKpsLSlp45MOGgntUFZEGrlUkYzHxCwVSQ48MY7U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.BinaryElevenMultiplexerExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.BinaryElevenMultiplexerExperimentFactory.html",
+          "hash": "P0frSMOz3NRCfKFFZr8oE/3XE2QH6IEEqpe41ddS5GE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryElevenMultiplexer.html",
+          "hash": "M2XU9cfxfe8P6kMrQYl3nkXA4O8RS9Ow7YjGXJgcP/8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.BinarySixMultiplexerEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.BinarySixMultiplexerEvaluationScheme.html",
+          "hash": "SqYDKcfYpOsQF3hdzPoR8g6qVcYcS0ul8QZBPdtCThs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.BinarySixMultiplexerEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.BinarySixMultiplexerEvaluator.html",
+          "hash": "QOpwDmYq+cZwlZwEHMktWsoiSp44DN1VP//wi2S0gmg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.BinarySixMultiplexerExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.BinarySixMultiplexerExperimentFactory.html",
+          "hash": "FQA622R+kC+s5rKxrTyZgVdk+L0hsEKzuajlhXspKH4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinarySixMultiplexer.html",
+          "hash": "feyIGAHJdwWeCIZmVWEpMqfBzdSPvaXVCJCBVOrrTwg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.BinaryThreeMultiplexerEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.BinaryThreeMultiplexerEvaluationScheme.html",
+          "hash": "b+8J7mSyCeZt4z6h5iQeRQRAUHUTjv5oqSU07DmP3tI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.BinaryThreeMultiplexerEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.BinaryThreeMultiplexerEvaluator.html",
+          "hash": "li0Wuer04SDfcNHk2AR6oYbbuv4uyOXfgLDJgonZBvI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.BinaryThreeMultiplexerExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.BinaryThreeMultiplexerExperimentFactory.html",
+          "hash": "TKUbKxguRCy77pkWh3ZTST951Lp/OYjYIQ7sfXQRWKI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexer.html",
+          "hash": "n8p2/OMvwroe0RLOKTl9AW95RGi1ttUg028NxgI5eAc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.BinaryThreeMultiplexerTests.html",
+          "hash": "UnD+RSg0ddDXUfYFQuj/+jmXDlUWneBxatjblXE6jZU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePoleEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePoleEvaluationScheme.html",
+          "hash": "SkSdQ7f0x0aO1MIMnMndfI1g1Ri1PPhADu78thmDvJU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePoleEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePoleEvaluator.html",
+          "hash": "Lu2iBmy4pQPQwa6kTTal7u2mPhFlE3jy/jDyEvMQIek="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePoleExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePoleExperimentFactory.html",
+          "hash": "JjT0V/q2fGRnM8tx9AVQ+CL88+6SLwy4CVkVvChDjyU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePolePhysicsRK4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.CartDoublePolePhysicsRK4.html",
+          "hash": "6zxQbaad2gE9o923/uZKhAO+9pCfdSZFgpZATERCaUc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.DoublePole.html",
+          "hash": "p13ya+5eLKpkRKIc3cavQiKpdC9tqAxQ7ogJmxcuT7I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePoleEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePoleEvaluationScheme.html",
+          "hash": "BP/AC/G9wVA6QM8NHZ5jUP3zi+/yqSJSYitNAdnnt0k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePoleEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePoleEvaluator.html",
+          "hash": "w9PgPcuaAwqur80bgKxJSx0ltsFNu9RGzOb1LoKuT1c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePoleExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePoleExperimentFactory.html",
+          "hash": "qdWTQammjkvG8afsKcDfu0qlwfAK4+fIIFpCjYbtbkE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePolePhysicsRK4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.CartSinglePolePhysicsRK4.html",
+          "hash": "yJB4Kwwzqysfy+f6YA+Yqj5ZMIo9llpDVcJVuDI35IA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.CartPole.SinglePole.html",
+          "hash": "EN+S2n4hDvKAL91XEebFyo7yaLi8M2u7jPdZWl32fHA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.BlackBoxProbe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.BlackBoxProbe.html",
+          "hash": "UlKk/Vi7Mb8+fauoCB+42mY+3bmL0GXFa4ZFlSHIn6w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluationScheme.html",
+          "hash": "6mk+3OCyMAfvqfZyjs44+DPfnLApFeuJS9xIxOr640g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionEvaluator.html",
+          "hash": "vl8aWtlXjJhDnUzY2qAEeKOf5pcjAdA0tm+R7mu62u0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionUtils.html",
+          "hash": "2RkcyUQs+R1XeiJ1isyTcLL6gexYrhMiawA7uOkeO6g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionUtilsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.FuncRegressionUtilsTests.html",
+          "hash": "UizZt+Jze4b/LdvOBeAB0svRwo2qrnvzJNRAzOE3b6U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.FunctionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.FunctionFactory.html",
+          "hash": "J9m6gRQoLExf/fzc0nJMNk5VIjclsS1Yy/qaMZQsuBI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.FunctionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.FunctionId.html",
+          "hash": "Fkdd8tQeV8MzOKx7j4g7JB9vh8oseqxKK23AkUz7WHY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.IBlackBoxProbe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.IBlackBoxProbe.html",
+          "hash": "KP5wJAWkTmFwsoYgNyYG7OCXS24g7zWoEAvV88OFaSI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.ParamSamplingInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.ParamSamplingInfo.html",
+          "hash": "5GAuxClYWIV20oaXSXfAv4I1JjjwqODySJmxoBKWOSY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.FunctionRegression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.FunctionRegression.html",
+          "hash": "MIkUa/yngEkMr7ykZlPacrw7HMTGQZDlAKtBCfOZt6Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.ConfigModels.GenerativeFnRegressionCustomConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.ConfigModels.GenerativeFnRegressionCustomConfig.html",
+          "hash": "cIpym0QpVBpPuIxGmJwniAF6TnWPY+7jhnNppYqs+eU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.ConfigModels.GenerativeFnRegressionExperimentConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.ConfigModels.GenerativeFnRegressionExperimentConfig.html",
+          "hash": "Vs7F6tKLjnBCvylRw/FvkOqv+0H6M4tpkMACHTxVyGo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.ConfigModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.ConfigModels.html",
+          "hash": "bzMIBSapVOfBCsMr8HDyIP63ltfQnEqR3ZHLj2jBmHk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.GenerativeBlackBoxProbe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.GenerativeBlackBoxProbe.html",
+          "hash": "6RXlOi8LQQXVblkFG3CP5bdSD7vccjuUruoSp0+7J8E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.GenerativeFnRegressionEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.GenerativeFnRegressionEvaluationScheme.html",
+          "hash": "2HIE0oEiro0f8RXWkhXcwy7j+rwCZg/bymZVGh76zcI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.GenerativeFnRegressionExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.GenerativeFnRegressionExperimentFactory.html",
+          "hash": "xhOyZPogH8kPC4f0YKPfGxb7e6fERp/QeXvlc8tjiSk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.GenerativeFunctionRegression.html",
+          "hash": "1BAMTbYzCB6qw07o7owDxe/XSUgiq3Py9jVkLdrpJDw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.ConfigModels.PreyCaptureCustomConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.ConfigModels.PreyCaptureCustomConfig.html",
+          "hash": "Rg9YjWTTR5kJPjKiCuugX8J/8q5VJDC1hmq0g97xqM4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.ConfigModels.PreyCaptureExperimentConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.ConfigModels.PreyCaptureExperimentConfig.html",
+          "hash": "JVTbK7wBrUArS6fGCVdqA7MHrjkj8k4b2MHww5MTwI4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.ConfigModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.ConfigModels.html",
+          "hash": "VWSafR9HNp9KXAVG2A3lWrRFbBuVbS+xE9G0Fi1e6rc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.Int32Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.Int32Point.html",
+          "hash": "Ka64GClOY7fOfhXMrKOGtFR0pBRiwNvkeM71B2sMhOE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureEvaluationScheme.html",
+          "hash": "alWHViqMEZgCi/rY4tQzSFJNfOmvYjFoJUd6Msyy6mU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureEvaluator.html",
+          "hash": "hsDOekxn+XsQfzPpTzzHOrp/QNRyRQYEJ080lTFKn78="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureExperimentFactory.html",
+          "hash": "Nc1gIy8TQN3x8c8DHpM8IL1wWI5bM3hj9InW2xi6va4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.PreyCaptureWorld.html",
+          "hash": "lQ32TS+V7YHPQyfeVmswsXftT1GJAqYR0viHbYf3ddA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.PreyCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.PreyCapture.html",
+          "hash": "DIQ7oFlBxWLBsE1TWVQdpczgm4cmd3X1Wmk8ALFwINM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Tests.PreyCapture.PreyCaptureWorldTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Tests.PreyCapture.PreyCaptureWorldTests.html",
+          "hash": "MIsHvqL1qsFrbg02iBfUgv+9OB4INr+25Su91F5UJhE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Tests.PreyCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Tests.PreyCapture.html",
+          "hash": "38R0E7c4VNGFGBANUwlY0qfDe7Ti51yF2XXXCiu7kdI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.GenerativeFunctionRegression.GenerativeFnRegressionUi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.GenerativeFunctionRegression.GenerativeFnRegressionUi.html",
+          "hash": "G7wiFW5IqdTipIw1OvfvOsnr+okHt3bAbyAzwZiRD0M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.GenerativeFunctionRegression.GenerativeFnRegressionUiFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.GenerativeFunctionRegression.GenerativeFnRegressionUiFactory.html",
+          "hash": "cQP6090GJpDbEhPCpwb5MFOWOArAI9OxJ0es6yY6EgU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.GenerativeFunctionRegression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.GenerativeFunctionRegression.html",
+          "hash": "OifGzqqGNBTBA5ULl85PP6U/pTdx/OW1bABh3THVItg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.PreyCaptureControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.PreyCaptureControl.html",
+          "hash": "uFPze0n+aetflnGckuYUBUhxZGoLEPxUtT13fHf6h4c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.PreyCaptureExperimentUi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.PreyCaptureExperimentUi.html",
+          "hash": "eARjei8aUyF9I1RlteHaYR3O9Vs/ZthsCisOYeXuMpY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.PreyCaptureExperimentUiFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.PreyCaptureExperimentUiFactory.html",
+          "hash": "r2DFvRjmVAC+oMJQhFLUpeRFE8VF8wDj9madIsmfyvA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Windows.PreyCapture.html",
+          "hash": "KU/B9eBL45Q3r07dsdNlyW38uq/BIMRt0QKTvprifK0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Xor.XorEvaluationScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Xor.XorEvaluationScheme.html",
+          "hash": "AYZoujsnCEdbRAxjPEMinmBM/L619jzBRNCBd+rxzYg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Xor.XorEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Xor.XorEvaluator.html",
+          "hash": "aA6Id7b2xOZi6j8u5ssjVmjZSJ6JDWMu5DqMHiyHFM8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Xor.XorExperimentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Xor.XorExperimentFactory.html",
+          "hash": "tuDt9yUynt7anqCoRUK8Fm6qLFKMxAvWRX0xMWBI9P4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.Xor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.Xor.html",
+          "hash": "7y6dLob/nzAPO4MIuTdb/VWKXYI86QY02xxuaA5bBf0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tasks.html",
+          "hash": "Ukwjva0J5n09l0v3mvgFxR9MhljEVZtHTi1SGkuz6Tg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tests.ArrayTestUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tests.ArrayTestUtils.html",
+          "hash": "jA+/m8iX30JeSU1qBlT/G49vJqfVXkFaEKC0CiFiHWE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tests.FuncTestUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tests.FuncTestUtils.html",
+          "hash": "Z1OIx+q6X3ys9e5kPME6V4YRa9NAnqN0cEk6KmWCGuk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Tests.html",
+          "hash": "bqUNkxChcPsRyq44IfcirRB/dVsEcpfATd780Dy3POY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.WeightedDirectedGraphFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.WeightedDirectedGraphFactoryTests.html",
+          "hash": "53PUmgwgOdMGKQsfkGOQ8BJT+d7uX7kR+AG4Co+HNjc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Experiments.ExperimentUiFactoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Experiments.ExperimentUiFactoryExtensions.html",
+          "hash": "jGITqbOfKQhaabe7wMdTTqXxV2vrUrPrU6O9eUBS5L8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Experiments.IExperimentUi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Experiments.IExperimentUi.html",
+          "hash": "px/szAGsllGkyP39i0xXqLekDVb80q0O4ZfE2JJuNgo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Experiments.IExperimentUiFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Experiments.IExperimentUiFactory.html",
+          "hash": "32VoueGR/twbnpAEaluAdNtPANv5Vvu7UoMRoP1g060="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Experiments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Experiments.html",
+          "hash": "AZ/fNvKw9IDocHjAXfRlw0fJASoodkl1DG1lUYoPTZg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.GenomeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.GenomeControl.html",
+          "hash": "+kIgPx4sQT+o1c9lb7oLG+4UbOn80mQzArIEKHq2gCw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Neat.NeatExperimentUi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Neat.NeatExperimentUi.html",
+          "hash": "2/qboSPiOjoOBoTnDgp6JNnyzs4t1uteRpO79ZaZLiU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Neat.NeatExperimentUiFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Neat.NeatExperimentUiFactory.html",
+          "hash": "Fzjjr+Zl4S5u3wWszpfIQAJd10NGQCCj4zv/D7ZSnPw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Neat.NeatGenomeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Neat.NeatGenomeControl.html",
+          "hash": "WLJmYd5rpSUhtHWdTi88hoxLf6ws3hdLwg6ghABRB6g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.Neat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.Neat.html",
+          "hash": "OfMCEOpAvrgc8Np3WLOkh/5rQAQhjW8tlFMEZY/AnBs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.ViewportControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.ViewportControl.html",
+          "hash": "aIXOvcQUBtTOctBD/cxm/25Pl+FJ7jzeLvlqYh2Ej6I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.Windows.html",
+          "hash": "iRNG5VlOawn0XCVWs78MF9F80CIBS5SVA9quijkjea8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpNeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpNeat.html",
+          "hash": "1KvTHX6a9NdEuMrHqL6myuuCCAt2z8u3atRg9htmsIo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestApp1.EvolutionAlgorithmFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestApp1.EvolutionAlgorithmFactory.html",
+          "hash": "+Cj4Jydn2HIIAR0di891PM8HxAIurcUz8YR2aXw8IYo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestApp1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestApp1.html",
+          "hash": "RY0OThXM8Jf1XltaKUzyy3AKSRH3nywPTv/B572i7nw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UiSandbox.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UiSandbox.Form1.html",
+          "hash": "pKHqlEK3CNh/NoHRYf/tiX7L1F6caH8WA2b6pH9r9VI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UiSandbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UiSandbox.html",
+          "hash": "DmhqAEcfTaaGbpuc44m0xmRM+ypn+QLDrdTm1R73FWE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "TmMeQnGWSdUSnIkiYHI4sjhNSVKPfI54PwH4WJclzbA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "HO/ab1zl0VhNqL1L5AvZXHwY6S3+Z4zD7j53LQIhBio="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "4Ybb+dyQLAB2PR1wXTSPtDXhgCPFZdgn0nRkaItAcq4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "NMIzL06MxlgohrkxEU/l5parMs5R8RY7IfSTFjJVPzs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
