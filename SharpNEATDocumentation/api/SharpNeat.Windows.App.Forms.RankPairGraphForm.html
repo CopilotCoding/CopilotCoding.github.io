@@ -1,0 +1,1377 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class RankPairGraphForm
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class RankPairGraphForm
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm">
+
+
+  <h1 id="SharpNeat_Windows_App_Forms_RankPairGraphForm" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm" class="text-break">Class RankPairGraphForm
+</h1>
+  <div class="markdown level0 summary"><p>Form for displaying a live graph of values by rank, and a secondary set of values at each rank.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">MarshalByRefObject</span></div>
+    <div class="level2"><span class="xref">Component</span></div>
+    <div class="level3"><span class="xref">Control</span></div>
+    <div class="level4"><span class="xref">ScrollableControl</span></div>
+    <div class="level5"><span class="xref">ContainerControl</span></div>
+    <div class="level6"><span class="xref">Form</span></div>
+    <div class="level7"><a class="xref" href="SharpNeat.Windows.App.Forms.GraphForm.html">GraphForm</a></div>
+    <div class="level8"><span class="xref">RankPairGraphForm</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IOleControl</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IOleObject</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IOleInPlaceObject</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IOleInPlaceActiveObject</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IOleWindow</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IViewObject</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IViewObject2</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IPersist</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IPersistStreamInit</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Oleaut32</span>.<span class="xref">IPersistPropertyBag</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IPersistStorage</span></div>
+    <div><span class="xref">Interop</span>.<span class="xref">Ole32</span>.<span class="xref">IQuickActivate</span></div>
+    <div><span class="xref">ISupportOleDropSource</span></div>
+    <div><span class="xref">IDropTarget</span></div>
+    <div><span class="xref">ISynchronizeInvoke</span></div>
+    <div><span class="xref">IWin32Window</span></div>
+    <div><span class="xref">IBindableComponent</span></div>
+    <div><span class="xref">IKeyboardToolTip</span></div>
+    <div><span class="xref">IHandle</span></div>
+    <div><span class="xref">IArrangedElement</span></div>
+    <div><span class="xref">IComponent</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">IContainerControl</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Form.Activate()</span>
+    </div>
+    <div>
+      <span class="xref">Form.AddOwnedForm(Form)</span>
+    </div>
+    <div>
+      <span class="xref">Form.Close()</span>
+    </div>
+    <div>
+      <span class="xref">Form.GetAutoScaleSize(Font)</span>
+    </div>
+    <div>
+      <span class="xref">Form.LayoutMdi(MdiLayout)</span>
+    </div>
+    <div>
+      <span class="xref">Form.RemoveOwnedForm(Form)</span>
+    </div>
+    <div>
+      <span class="xref">Form.SetDesktopBounds(int, int, int, int)</span>
+    </div>
+    <div>
+      <span class="xref">Form.SetDesktopLocation(int, int)</span>
+    </div>
+    <div>
+      <span class="xref">Form.Show(IWin32Window)</span>
+    </div>
+    <div>
+      <span class="xref">Form.ShowDialog()</span>
+    </div>
+    <div>
+      <span class="xref">Form.ShowDialog(IWin32Window)</span>
+    </div>
+    <div>
+      <span class="xref">Form.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Form.ValidateChildren()</span>
+    </div>
+    <div>
+      <span class="xref">Form.ValidateChildren(ValidationConstraints)</span>
+    </div>
+    <div>
+      <span class="xref">Form.AcceptButton</span>
+    </div>
+    <div>
+      <span class="xref">Form.ActiveForm</span>
+    </div>
+    <div>
+      <span class="xref">Form.ActiveMdiChild</span>
+    </div>
+    <div>
+      <span class="xref">Form.AllowTransparency</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoScale</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoScaleBaseSize</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoScroll</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoSize</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoSizeMode</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoValidate</span>
+    </div>
+    <div>
+      <span class="xref">Form.BackColor</span>
+    </div>
+    <div>
+      <span class="xref">Form.FormBorderStyle</span>
+    </div>
+    <div>
+      <span class="xref">Form.CancelButton</span>
+    </div>
+    <div>
+      <span class="xref">Form.ClientSize</span>
+    </div>
+    <div>
+      <span class="xref">Form.ControlBox</span>
+    </div>
+    <div>
+      <span class="xref">Form.DesktopBounds</span>
+    </div>
+    <div>
+      <span class="xref">Form.DesktopLocation</span>
+    </div>
+    <div>
+      <span class="xref">Form.DialogResult</span>
+    </div>
+    <div>
+      <span class="xref">Form.HelpButton</span>
+    </div>
+    <div>
+      <span class="xref">Form.Icon</span>
+    </div>
+    <div>
+      <span class="xref">Form.IsMdiChild</span>
+    </div>
+    <div>
+      <span class="xref">Form.IsMdiContainer</span>
+    </div>
+    <div>
+      <span class="xref">Form.IsRestrictedWindow</span>
+    </div>
+    <div>
+      <span class="xref">Form.KeyPreview</span>
+    </div>
+    <div>
+      <span class="xref">Form.Location</span>
+    </div>
+    <div>
+      <span class="xref">Form.MaximumSize</span>
+    </div>
+    <div>
+      <span class="xref">Form.MainMenuStrip</span>
+    </div>
+    <div>
+      <span class="xref">Form.Margin</span>
+    </div>
+    <div>
+      <span class="xref">Form.MinimumSize</span>
+    </div>
+    <div>
+      <span class="xref">Form.MaximizeBox</span>
+    </div>
+    <div>
+      <span class="xref">Form.MdiChildren</span>
+    </div>
+    <div>
+      <span class="xref">Form.MdiChildrenMinimizedAnchorBottom</span>
+    </div>
+    <div>
+      <span class="xref">Form.MdiParent</span>
+    </div>
+    <div>
+      <span class="xref">Form.MinimizeBox</span>
+    </div>
+    <div>
+      <span class="xref">Form.Modal</span>
+    </div>
+    <div>
+      <span class="xref">Form.Opacity</span>
+    </div>
+    <div>
+      <span class="xref">Form.OwnedForms</span>
+    </div>
+    <div>
+      <span class="xref">Form.Owner</span>
+    </div>
+    <div>
+      <span class="xref">Form.RestoreBounds</span>
+    </div>
+    <div>
+      <span class="xref">Form.RightToLeftLayout</span>
+    </div>
+    <div>
+      <span class="xref">Form.ShowInTaskbar</span>
+    </div>
+    <div>
+      <span class="xref">Form.ShowIcon</span>
+    </div>
+    <div>
+      <span class="xref">Form.Size</span>
+    </div>
+    <div>
+      <span class="xref">Form.SizeGripStyle</span>
+    </div>
+    <div>
+      <span class="xref">Form.StartPosition</span>
+    </div>
+    <div>
+      <span class="xref">Form.TabIndex</span>
+    </div>
+    <div>
+      <span class="xref">Form.TabStop</span>
+    </div>
+    <div>
+      <span class="xref">Form.Text</span>
+    </div>
+    <div>
+      <span class="xref">Form.TopLevel</span>
+    </div>
+    <div>
+      <span class="xref">Form.TopMost</span>
+    </div>
+    <div>
+      <span class="xref">Form.TransparencyKey</span>
+    </div>
+    <div>
+      <span class="xref">Form.WindowState</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoSizeChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.AutoValidateChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.HelpButtonClicked</span>
+    </div>
+    <div>
+      <span class="xref">Form.MaximizedBoundsChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.MaximumSizeChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.MarginChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.MinimumSizeChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.TabIndexChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.TabStopChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.Activated</span>
+    </div>
+    <div>
+      <span class="xref">Form.Closing</span>
+    </div>
+    <div>
+      <span class="xref">Form.Closed</span>
+    </div>
+    <div>
+      <span class="xref">Form.Deactivate</span>
+    </div>
+    <div>
+      <span class="xref">Form.FormClosing</span>
+    </div>
+    <div>
+      <span class="xref">Form.FormClosed</span>
+    </div>
+    <div>
+      <span class="xref">Form.Load</span>
+    </div>
+    <div>
+      <span class="xref">Form.MdiChildActivate</span>
+    </div>
+    <div>
+      <span class="xref">Form.MenuComplete</span>
+    </div>
+    <div>
+      <span class="xref">Form.MenuStart</span>
+    </div>
+    <div>
+      <span class="xref">Form.InputLanguageChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.InputLanguageChanging</span>
+    </div>
+    <div>
+      <span class="xref">Form.RightToLeftLayoutChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.Shown</span>
+    </div>
+    <div>
+      <span class="xref">Form.DpiChanged</span>
+    </div>
+    <div>
+      <span class="xref">Form.ResizeBegin</span>
+    </div>
+    <div>
+      <span class="xref">Form.ResizeEnd</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.PerformAutoScale()</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.Validate()</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.Validate(bool)</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.AutoScaleDimensions</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.AutoScaleMode</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.BindingContext</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.ActiveControl</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.CurrentAutoScaleDimensions</span>
+    </div>
+    <div>
+      <span class="xref">ContainerControl.ParentForm</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.ScrollControlIntoView(Control)</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.SetAutoScrollMargin(int, int)</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.AutoScrollMargin</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.AutoScrollPosition</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.AutoScrollMinSize</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.DisplayRectangle</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.HorizontalScroll</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.VerticalScroll</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.DockPadding</span>
+    </div>
+    <div>
+      <span class="xref">ScrollableControl.Scroll</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetBindings()</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetPreferredSize(Size)</span>
+    </div>
+    <div>
+      <span class="xref">Control.BeginInvoke(Delegate)</span>
+    </div>
+    <div>
+      <span class="xref">Control.BeginInvoke(Action)</span>
+    </div>
+    <div>
+      <span class="xref">Control.BeginInvoke(Delegate, params object[])</span>
+    </div>
+    <div>
+      <span class="xref">Control.BringToFront()</span>
+    </div>
+    <div>
+      <span class="xref">Control.Contains(Control)</span>
+    </div>
+    <div>
+      <span class="xref">Control.CreateGraphics()</span>
+    </div>
+    <div>
+      <span class="xref">Control.CreateControl()</span>
+    </div>
+    <div>
+      <span class="xref">Control.DoDragDrop(object, DragDropEffects)</span>
+    </div>
+    <div>
+      <span class="xref">Control.DoDragDrop(object, DragDropEffects, Bitmap, Point, bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.DrawToBitmap(Bitmap, Rectangle)</span>
+    </div>
+    <div>
+      <span class="xref">Control.EndInvoke(IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">Control.FindForm()</span>
+    </div>
+    <div>
+      <span class="xref">Control.Focus()</span>
+    </div>
+    <div>
+      <span class="xref">Control.FromChildHandle(nint)</span>
+    </div>
+    <div>
+      <span class="xref">Control.FromHandle(nint)</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetChildAtPoint(Point, GetChildAtPointSkip)</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetChildAtPoint(Point)</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetContainerControl()</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetNextControl(Control, bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Hide()</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidate(Region)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidate(Region, bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidate()</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidate(bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidate(Rectangle)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidate(Rectangle, bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invoke(Action)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invoke(Delegate)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invoke(Delegate, params object[])</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invoke&lt;T&gt;(Func&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsKeyLocked(Keys)</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsMnemonic(char, string)</span>
+    </div>
+    <div>
+      <span class="xref">Control.LogicalToDeviceUnits(int)</span>
+    </div>
+    <div>
+      <span class="xref">Control.LogicalToDeviceUnits(Size)</span>
+    </div>
+    <div>
+      <span class="xref">Control.ScaleBitmapLogicalToDevice(ref Bitmap)</span>
+    </div>
+    <div>
+      <span class="xref">Control.PerformLayout()</span>
+    </div>
+    <div>
+      <span class="xref">Control.PerformLayout(Control, string)</span>
+    </div>
+    <div>
+      <span class="xref">Control.PointToClient(Point)</span>
+    </div>
+    <div>
+      <span class="xref">Control.PointToScreen(Point)</span>
+    </div>
+    <div>
+      <span class="xref">Control.PreProcessMessage(ref Message)</span>
+    </div>
+    <div>
+      <span class="xref">Control.PreProcessControlMessage(ref Message)</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetBackColor()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetCursor()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetFont()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetForeColor()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetRightToLeft()</span>
+    </div>
+    <div>
+      <span class="xref">Control.RectangleToClient(Rectangle)</span>
+    </div>
+    <div>
+      <span class="xref">Control.RectangleToScreen(Rectangle)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Refresh()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetText()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResumeLayout()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResumeLayout(bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Scale(float)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Scale(float, float)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Scale(SizeF)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Select()</span>
+    </div>
+    <div>
+      <span class="xref">Control.SelectNextControl(Control, bool, bool, bool, bool)</span>
+    </div>
+    <div>
+      <span class="xref">Control.SendToBack()</span>
+    </div>
+    <div>
+      <span class="xref">Control.SetBounds(int, int, int, int)</span>
+    </div>
+    <div>
+      <span class="xref">Control.SetBounds(int, int, int, int, BoundsSpecified)</span>
+    </div>
+    <div>
+      <span class="xref">Control.Show()</span>
+    </div>
+    <div>
+      <span class="xref">Control.SuspendLayout()</span>
+    </div>
+    <div>
+      <span class="xref">Control.Update()</span>
+    </div>
+    <div>
+      <span class="xref">Control.ResetImeMode()</span>
+    </div>
+    <div>
+      <span class="xref">Control.AccessibilityObject</span>
+    </div>
+    <div>
+      <span class="xref">Control.AccessibleDefaultActionDescription</span>
+    </div>
+    <div>
+      <span class="xref">Control.AccessibleDescription</span>
+    </div>
+    <div>
+      <span class="xref">Control.AccessibleName</span>
+    </div>
+    <div>
+      <span class="xref">Control.AccessibleRole</span>
+    </div>
+    <div>
+      <span class="xref">Control.AllowDrop</span>
+    </div>
+    <div>
+      <span class="xref">Control.Anchor</span>
+    </div>
+    <div>
+      <span class="xref">Control.AutoScrollOffset</span>
+    </div>
+    <div>
+      <span class="xref">Control.LayoutEngine</span>
+    </div>
+    <div>
+      <span class="xref">Control.DataContext</span>
+    </div>
+    <div>
+      <span class="xref">Control.BackgroundImage</span>
+    </div>
+    <div>
+      <span class="xref">Control.BackgroundImageLayout</span>
+    </div>
+    <div>
+      <span class="xref">Control.Bottom</span>
+    </div>
+    <div>
+      <span class="xref">Control.Bounds</span>
+    </div>
+    <div>
+      <span class="xref">Control.CanFocus</span>
+    </div>
+    <div>
+      <span class="xref">Control.CanSelect</span>
+    </div>
+    <div>
+      <span class="xref">Control.Capture</span>
+    </div>
+    <div>
+      <span class="xref">Control.CausesValidation</span>
+    </div>
+    <div>
+      <span class="xref">Control.CheckForIllegalCrossThreadCalls</span>
+    </div>
+    <div>
+      <span class="xref">Control.ClientRectangle</span>
+    </div>
+    <div>
+      <span class="xref">Control.CompanyName</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContainsFocus</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextMenuStrip</span>
+    </div>
+    <div>
+      <span class="xref">Control.Controls</span>
+    </div>
+    <div>
+      <span class="xref">Control.Created</span>
+    </div>
+    <div>
+      <span class="xref">Control.Cursor</span>
+    </div>
+    <div>
+      <span class="xref">Control.DataBindings</span>
+    </div>
+    <div>
+      <span class="xref">Control.DefaultBackColor</span>
+    </div>
+    <div>
+      <span class="xref">Control.DefaultFont</span>
+    </div>
+    <div>
+      <span class="xref">Control.DefaultForeColor</span>
+    </div>
+    <div>
+      <span class="xref">Control.DeviceDpi</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsDisposed</span>
+    </div>
+    <div>
+      <span class="xref">Control.Disposing</span>
+    </div>
+    <div>
+      <span class="xref">Control.Dock</span>
+    </div>
+    <div>
+      <span class="xref">Control.Enabled</span>
+    </div>
+    <div>
+      <span class="xref">Control.Focused</span>
+    </div>
+    <div>
+      <span class="xref">Control.Font</span>
+    </div>
+    <div>
+      <span class="xref">Control.ForeColor</span>
+    </div>
+    <div>
+      <span class="xref">Control.Handle</span>
+    </div>
+    <div>
+      <span class="xref">Control.HasChildren</span>
+    </div>
+    <div>
+      <span class="xref">Control.Height</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsHandleCreated</span>
+    </div>
+    <div>
+      <span class="xref">Control.InvokeRequired</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsAccessible</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsAncestorSiteInDesignMode</span>
+    </div>
+    <div>
+      <span class="xref">Control.IsMirrored</span>
+    </div>
+    <div>
+      <span class="xref">Control.Left</span>
+    </div>
+    <div>
+      <span class="xref">Control.ModifierKeys</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseButtons</span>
+    </div>
+    <div>
+      <span class="xref">Control.MousePosition</span>
+    </div>
+    <div>
+      <span class="xref">Control.Name</span>
+    </div>
+    <div>
+      <span class="xref">Control.Parent</span>
+    </div>
+    <div>
+      <span class="xref">Control.ProductName</span>
+    </div>
+    <div>
+      <span class="xref">Control.ProductVersion</span>
+    </div>
+    <div>
+      <span class="xref">Control.RecreatingHandle</span>
+    </div>
+    <div>
+      <span class="xref">Control.Region</span>
+    </div>
+    <div>
+      <span class="xref">Control.Right</span>
+    </div>
+    <div>
+      <span class="xref">Control.RightToLeft</span>
+    </div>
+    <div>
+      <span class="xref">Control.Site</span>
+    </div>
+    <div>
+      <span class="xref">Control.Tag</span>
+    </div>
+    <div>
+      <span class="xref">Control.Top</span>
+    </div>
+    <div>
+      <span class="xref">Control.TopLevelControl</span>
+    </div>
+    <div>
+      <span class="xref">Control.UseWaitCursor</span>
+    </div>
+    <div>
+      <span class="xref">Control.Visible</span>
+    </div>
+    <div>
+      <span class="xref">Control.Width</span>
+    </div>
+    <div>
+      <span class="xref">Control.WindowTarget</span>
+    </div>
+    <div>
+      <span class="xref">Control.PreferredSize</span>
+    </div>
+    <div>
+      <span class="xref">Control.Padding</span>
+    </div>
+    <div>
+      <span class="xref">Control.ImeMode</span>
+    </div>
+    <div>
+      <span class="xref">Control.BackColorChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.BackgroundImageChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.BackgroundImageLayoutChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.BindingContextChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.CausesValidationChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.ClientSizeChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.ContextMenuStripChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.CursorChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.DockChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.EnabledChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.FontChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.ForeColorChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.LocationChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.RegionChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.RightToLeftChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.SizeChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.TextChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.VisibleChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.Click</span>
+    </div>
+    <div>
+      <span class="xref">Control.ControlAdded</span>
+    </div>
+    <div>
+      <span class="xref">Control.ControlRemoved</span>
+    </div>
+    <div>
+      <span class="xref">Control.DataContextChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.DragDrop</span>
+    </div>
+    <div>
+      <span class="xref">Control.DragEnter</span>
+    </div>
+    <div>
+      <span class="xref">Control.DragOver</span>
+    </div>
+    <div>
+      <span class="xref">Control.DragLeave</span>
+    </div>
+    <div>
+      <span class="xref">Control.GiveFeedback</span>
+    </div>
+    <div>
+      <span class="xref">Control.HandleCreated</span>
+    </div>
+    <div>
+      <span class="xref">Control.HandleDestroyed</span>
+    </div>
+    <div>
+      <span class="xref">Control.HelpRequested</span>
+    </div>
+    <div>
+      <span class="xref">Control.Invalidated</span>
+    </div>
+    <div>
+      <span class="xref">Control.PaddingChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.Paint</span>
+    </div>
+    <div>
+      <span class="xref">Control.QueryContinueDrag</span>
+    </div>
+    <div>
+      <span class="xref">Control.QueryAccessibilityHelp</span>
+    </div>
+    <div>
+      <span class="xref">Control.DoubleClick</span>
+    </div>
+    <div>
+      <span class="xref">Control.Enter</span>
+    </div>
+    <div>
+      <span class="xref">Control.GotFocus</span>
+    </div>
+    <div>
+      <span class="xref">Control.KeyDown</span>
+    </div>
+    <div>
+      <span class="xref">Control.KeyPress</span>
+    </div>
+    <div>
+      <span class="xref">Control.KeyUp</span>
+    </div>
+    <div>
+      <span class="xref">Control.Layout</span>
+    </div>
+    <div>
+      <span class="xref">Control.Leave</span>
+    </div>
+    <div>
+      <span class="xref">Control.LostFocus</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseClick</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseDoubleClick</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseCaptureChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseDown</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseEnter</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseLeave</span>
+    </div>
+    <div>
+      <span class="xref">Control.DpiChangedBeforeParent</span>
+    </div>
+    <div>
+      <span class="xref">Control.DpiChangedAfterParent</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseHover</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseMove</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseUp</span>
+    </div>
+    <div>
+      <span class="xref">Control.MouseWheel</span>
+    </div>
+    <div>
+      <span class="xref">Control.Move</span>
+    </div>
+    <div>
+      <span class="xref">Control.PreviewKeyDown</span>
+    </div>
+    <div>
+      <span class="xref">Control.Resize</span>
+    </div>
+    <div>
+      <span class="xref">Control.ChangeUICues</span>
+    </div>
+    <div>
+      <span class="xref">Control.StyleChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.SystemColorsChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.Validating</span>
+    </div>
+    <div>
+      <span class="xref">Control.Validated</span>
+    </div>
+    <div>
+      <span class="xref">Control.ParentChanged</span>
+    </div>
+    <div>
+      <span class="xref">Control.ImeModeChanged</span>
+    </div>
+    <div>
+      <span class="xref">Component.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">Component.Container</span>
+    </div>
+    <div>
+      <span class="xref">Component.Disposed</span>
+    </div>
+    <div>
+      <span class="xref">MarshalByRefObject.GetLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">MarshalByRefObject.InitializeLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Windows.html">Windows</a>.<a class="xref" href="SharpNeat.Windows.App.html">App</a>.<a class="xref" href="SharpNeat.Windows.App.Forms.html">Forms</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.Windows.App.dll</h6>
+  <h5 id="SharpNeat_Windows_App_Forms_RankPairGraphForm_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">internal sealed class RankPairGraphForm : GraphForm, Interop.Ole32.IOleControl, Interop.Ole32.IOleObject, Interop.Ole32.IOleInPlaceObject, Interop.Ole32.IOleInPlaceActiveObject, Interop.Ole32.IOleWindow, Interop.Ole32.IViewObject, Interop.Ole32.IViewObject2, Interop.Ole32.IPersist, Interop.Ole32.IPersistStreamInit, Interop.Oleaut32.IPersistPropertyBag, Interop.Ole32.IPersistStorage, Interop.Ole32.IQuickActivate, ISupportOleDropSource, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IKeyboardToolTip, IHandle, IArrangedElement, IComponent, IDisposable, IContainerControl</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Windows_App_Forms_RankPairGraphForm__ctor_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20SharpNeat.Windows.App.Forms.RankPairGraphForm.%23ctor(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Windows.App/Forms/RankPairGraphForm.cs/#L15">View Source</a>
+  </span>
+  <a id="SharpNeat_Windows_App_Forms_RankPairGraphForm__ctor_" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm.#ctor*"></a>
+  <h4 id="SharpNeat_Windows_App_Forms_RankPairGraphForm__ctor_System_String_System_String_System_String_System_String_System_String_" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm.#ctor(System.String,System.String,System.String,System.String,System.String)">RankPairGraphForm(string, string, string, string, string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RankPairGraphForm(string title, string xAxisTitle, string y1AxisTitle, string seriesName, string seriesName2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">title</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">xAxisTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">y1AxisTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">seriesName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">seriesName2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Windows_App_Forms_RankPairGraphForm__ppl.md&amp;value=---%0Auid%3A%20SharpNeat.Windows.App.Forms.RankPairGraphForm._ppl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Windows.App/Forms/RankPairGraphForm.cs/#L12">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Windows_App_Forms_RankPairGraphForm__ppl" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm._ppl">_ppl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly PointPairList _ppl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointPairList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Windows_App_Forms_RankPairGraphForm__ppl2.md&amp;value=---%0Auid%3A%20SharpNeat.Windows.App.Forms.RankPairGraphForm._ppl2%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Windows.App/Forms/RankPairGraphForm.cs/#L13">View Source</a>
+  </span>
+  <h4 id="SharpNeat_Windows_App_Forms_RankPairGraphForm__ppl2" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm._ppl2">_ppl2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly PointPairList _ppl2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointPairList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Windows_App_Forms_RankPairGraphForm_Clear.md&amp;value=---%0Auid%3A%20SharpNeat.Windows.App.Forms.RankPairGraphForm.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Windows.App/Forms/RankPairGraphForm.cs/#L58">View Source</a>
+  </span>
+  <a id="SharpNeat_Windows_App_Forms_RankPairGraphForm_Clear_" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm.Clear*"></a>
+  <h4 id="SharpNeat_Windows_App_Forms_RankPairGraphForm_Clear" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear the rank data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Clear()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SharpNeat.Windows.App.Forms.GraphForm.html#SharpNeat_Windows_App_Forms_GraphForm_Clear">GraphForm.Clear()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Windows_App_Forms_RankPairGraphForm_UpdateData_System_Span_System_Double__System_Span_System_Double__.md&amp;value=---%0Auid%3A%20SharpNeat.Windows.App.Forms.RankPairGraphForm.UpdateData(System.Span%7BSystem.Double%7D%2CSystem.Span%7BSystem.Double%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Windows.App/Forms/RankPairGraphForm.cs/#L41">View Source</a>
+  </span>
+  <a id="SharpNeat_Windows_App_Forms_RankPairGraphForm_UpdateData_" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm.UpdateData*"></a>
+  <h4 id="SharpNeat_Windows_App_Forms_RankPairGraphForm_UpdateData_System_Span_System_Double__System_Span_System_Double__" data-uid="SharpNeat.Windows.App.Forms.RankPairGraphForm.UpdateData(System.Span{System.Double},System.Span{System.Double})">UpdateData(Span&lt;double&gt;, Span&lt;double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Update the graph rank data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateData(Span&lt;double&gt; valueByRank, Span&lt;double&gt; secondaryValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">valueByRank</span></td>
+        <td><p>The new data values, by order of rank (with rank 1 at element zero).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">secondaryValues</span></td>
+        <td><p>Secondary data series.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Interop.Ole32.IOleControl</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IOleObject</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IOleInPlaceObject</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IOleInPlaceActiveObject</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IOleWindow</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IViewObject</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IViewObject2</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IPersist</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IPersistStreamInit</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Oleaut32.IPersistPropertyBag</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IPersistStorage</span>
+  </div>
+  <div>
+      <span class="xref">Interop.Ole32.IQuickActivate</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.ISupportOleDropSource</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.IDropTarget</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.ISynchronizeInvoke</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.IWin32Window</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.IBindableComponent</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.IKeyboardToolTip</span>
+  </div>
+  <div>
+      <span class="xref">IHandle</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.Layout.IArrangedElement</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.IComponent</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Windows.Forms.IContainerControl</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Windows_App_Forms_RankPairGraphForm.md&amp;value=---%0Auid%3A%20SharpNeat.Windows.App.Forms.RankPairGraphForm%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat.Windows.App/Forms/RankPairGraphForm.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
