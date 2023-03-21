@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class NeuralNetCyclic
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class NeuralNetCyclic
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic">
+
+
+  <h1 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic" class="text-break">Class NeuralNetCyclic
+</h1>
+  <div class="markdown level0 summary"><p>A neural network class that represents a network with recurrent (cyclic) connections.</p>
+<p>Algorithm Overview.</p>
+<ol>
+<li><p>Loop connections.
+Each connection gets its input signal from its source node, multiplies the signal by its weight, and adds
+the result to its target node's pre-activation variable. Connections are ordered by source node index,
+thus all memory reads are sequential, but the memory writes to node pre-activation variables are
+non-sequential.</p>
+</li>
+<li><p>Loop nodes.
+Pass each node's pre-activation signal through the activation function, storing the result in a separate
+post-activation signals array.</p>
+</li>
+<li><p>Completion.
+Copy the post-activation signals into the pre-activations signals array.</p>
+</li>
+</ol>
+<p>The activation loop is run a fixed number of times/cycles to allow signals to gradually propagate through
+the network, one timestep/cycle/loop at a time.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">NeuralNetCyclic</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox</a>&lt;<span class="xref">double</span>&gt;</div>
+    <div><span class="xref">IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.NeuralNets.html">NeuralNets</a>.<a class="xref" href="SharpNeat.NeuralNets.Double.html">Double</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.dll</h6>
+  <h5 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class NeuralNetCyclic : IBlackBox&lt;double&gt;, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic__ctor_SharpNeat_Graphs_DirectedGraph_System_Double___SharpNeat_NeuralNets_VecFn2_System_Double__System_Int32_.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.%23ctor(SharpNeat.Graphs.DirectedGraph%2CSystem.Double%5B%5D%2CSharpNeat.NeuralNets.VecFn2%7BSystem.Double%7D%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L78">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic__ctor_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.#ctor*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic__ctor_SharpNeat_Graphs_DirectedGraph_System_Double___SharpNeat_NeuralNets_VecFn2_System_Double__System_Int32_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.#ctor(SharpNeat.Graphs.DirectedGraph,System.Double[],SharpNeat.NeuralNets.VecFn2{System.Double},System.Int32)">NeuralNetCyclic(DirectedGraph, double[], VecFn2&lt;double&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Constructs a cyclic neural network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralNetCyclic(DirectedGraph digraph, double[] weightArr, VecFn2&lt;double&gt; activationFn, int cyclesPerActivation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>The directed graph that defines the neural network structure.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">double</span>[]</td>
+        <td><span class="parametername">weightArr</span></td>
+        <td><p>An array of neural network connection weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.NeuralNets.VecFn2-1.html">VecFn2</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">activationFn</span></td>
+        <td><p>The neuron activation function to use at all neurons in the network.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">cyclesPerActivation</span></td>
+        <td><p>The number of activation cycles to perform per overall activation of the cyclic network.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic__ctor_SharpNeat_Graphs_WeightedDirectedGraph_System_Double__SharpNeat_NeuralNets_VecFn2_System_Double__System_Int32_.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.%23ctor(SharpNeat.Graphs.WeightedDirectedGraph%7BSystem.Double%7D%2CSharpNeat.NeuralNets.VecFn2%7BSystem.Double%7D%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L59">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic__ctor_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.#ctor*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic__ctor_SharpNeat_Graphs_WeightedDirectedGraph_System_Double__SharpNeat_NeuralNets_VecFn2_System_Double__System_Int32_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.#ctor(SharpNeat.Graphs.WeightedDirectedGraph{System.Double},SharpNeat.NeuralNets.VecFn2{System.Double},System.Int32)">NeuralNetCyclic(WeightedDirectedGraph&lt;double&gt;, VecFn2&lt;double&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Constructs a cyclic neural network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralNetCyclic(WeightedDirectedGraph&lt;double&gt; digraph, VecFn2&lt;double&gt; activationFn, int cyclesPerActivation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.WeightedDirectedGraph-1.html">WeightedDirectedGraph</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>The weighted directed graph that defines the neural network structure and connection weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.NeuralNets.VecFn2-1.html">VecFn2</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">activationFn</span></td>
+        <td><p>The neuron activation function to use at all neurons in the network.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">cyclesPerActivation</span></td>
+        <td><p>The number of activation cycles to perform per overall activation of the cyclic network.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic_Inputs.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.Inputs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L123">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Inputs_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Inputs*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Inputs" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Inputs">Inputs</h4>
+  <div class="markdown level1 summary"><p>Gets a memory segment that represents a vector of input values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Memory&lt;double&gt; Inputs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Memory</span>&lt;<span class="xref">double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic_Outputs.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.Outputs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L128">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Outputs_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Outputs*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Outputs" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Outputs">Outputs</h4>
+  <div class="markdown level1 summary"><p>Gets a memory segment that represents a vector of output values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Memory&lt;double&gt; Outputs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Memory</span>&lt;<span class="xref">double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic_Activate.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.Activate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L135">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Activate_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Activate*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Activate" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Activate">Activate()</h4>
+  <div class="markdown level1 summary"><p>Activate the network for a fixed number of iterations defined by the 'maxIterations' parameter
+at construction time. Activation reads input signals from InputSignalArray and writes output signals
+to OutputSignalArray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Activate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic_Dispose.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L199">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Dispose_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Dispose*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Dispose" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic_Reset.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic.Reset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L186">View Source</a>
+  </span>
+  <a id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Reset_" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Reset*"></a>
+  <h4 id="SharpNeat_NeuralNets_Double_NeuralNetCyclic_Reset" data-uid="SharpNeat.NeuralNets.Double.NeuralNetCyclic.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Reset the network's internal state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SharpNeat.IBlackBox-1.html">IBlackBox&lt;T&gt;</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_NeuralNets_Double_NeuralNetCyclic.md&amp;value=---%0Auid%3A%20SharpNeat.NeuralNets.Double.NeuralNetCyclic%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/SharpNeat/NeuralNets/Double/NeuralNetCyclic.cs/#L30" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
