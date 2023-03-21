@@ -1,0 +1,687 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class NeatGenome&lt;T&gt;
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class NeatGenome&lt;T&gt;
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpNeat.Neat.Genome.NeatGenome`1">
+
+
+  <h1 id="SharpNeat_Neat_Genome_NeatGenome_1" data-uid="SharpNeat.Neat.Genome.NeatGenome`1" class="text-break">Class NeatGenome&lt;T&gt;
+</h1>
+  <div class="markdown level0 summary"><p>Represents a NEAT genome, i.e the genetic representation of a neural network.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">NeatGenome&lt;T&gt;</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SharpNeat.EvolutionAlgorithm.IGenome.html">IGenome</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpNeat.html">SharpNeat</a>.<a class="xref" href="SharpNeat.Neat.html">Neat</a>.<a class="xref" href="SharpNeat.Neat.Genome.html">Genome</a></h6>
+  <h6><strong>Assembly</strong>: SharpNeat.dll</h6>
+  <h5 id="SharpNeat_Neat_Genome_NeatGenome_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NeatGenome&lt;T&gt; : IGenome where T : struct</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Neural net numeric data type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1__ctor_SharpNeat_Neat_Genome_MetaNeatGenome__0__System_Int32_System_Int32_SharpNeat_Neat_Genome_ConnectionGenes__0__System_Int32___SharpNeat_Graphs_INodeIdMap_SharpNeat_Graphs_DirectedGraph_System_Int32___.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.%23ctor(SharpNeat.Neat.Genome.MetaNeatGenome%7B%600%7D%2CSystem.Int32%2CSystem.Int32%2CSharpNeat.Neat.Genome.ConnectionGenes%7B%600%7D%2CSystem.Int32%5B%5D%2CSharpNeat.Graphs.INodeIdMap%2CSharpNeat.Graphs.DirectedGraph%2CSystem.Int32%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L119">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1__ctor_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.#ctor*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1__ctor_SharpNeat_Neat_Genome_MetaNeatGenome__0__System_Int32_System_Int32_SharpNeat_Neat_Genome_ConnectionGenes__0__System_Int32___SharpNeat_Graphs_INodeIdMap_SharpNeat_Graphs_DirectedGraph_System_Int32___" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.#ctor(SharpNeat.Neat.Genome.MetaNeatGenome{`0},System.Int32,System.Int32,SharpNeat.Neat.Genome.ConnectionGenes{`0},System.Int32[],SharpNeat.Graphs.INodeIdMap,SharpNeat.Graphs.DirectedGraph,System.Int32[])">NeatGenome(MetaNeatGenome&lt;T&gt;, int, int, ConnectionGenes&lt;T&gt;, int[], INodeIdMap, DirectedGraph, int[]?)</h4>
+  <div class="markdown level1 summary"><p>Constructs with the provided ID, birth generation and gene arrays.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">internal NeatGenome(MetaNeatGenome&lt;T&gt; metaNeatGenome, int id, int birthGeneration, ConnectionGenes&lt;T&gt; connGenes, int[] hiddenNodeIdArr, INodeIdMap nodeIndexByIdMap, DirectedGraph digraph, int[]? connectionIndexMap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.Genome.MetaNeatGenome-1.html">MetaNeatGenome</a>&lt;T&gt;</td>
+        <td><span class="parametername">metaNeatGenome</span></td>
+        <td><p>Meta NEAT genome.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>Genome ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">birthGeneration</span></td>
+        <td><p>Genome birth generation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.Genome.ConnectionGenes-1.html">ConnectionGenes</a>&lt;T&gt;</td>
+        <td><span class="parametername">connGenes</span></td>
+        <td><p>Genome connection genes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td><span class="parametername">hiddenNodeIdArr</span></td>
+        <td><p>Array of hidden node IDs.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.INodeIdMap.html">INodeIdMap</a></td>
+        <td><span class="parametername">nodeIndexByIdMap</span></td>
+        <td><p>A mapping from node IDs to node indexes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td><span class="parametername">digraph</span></td>
+        <td><p>A directed graph that represents the neural network structure.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td><span class="parametername">connectionIndexMap</span></td>
+        <td><p>A mapping between genome connection indexes (in <code data-dev-comment-type="paramref" class="paramref">connGenes</code>),
+to reordered connections based on depth based node index allocations (optional, acyclic genomes only).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_BirthGeneration.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.BirthGeneration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L23">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_BirthGeneration_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.BirthGeneration*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_BirthGeneration" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.BirthGeneration">BirthGeneration</h4>
+  <div class="markdown level1 summary"><p>Genome birth generation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BirthGeneration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_Complexity.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.Complexity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L36">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_Complexity_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.Complexity*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_Complexity" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.Complexity">Complexity</h4>
+  <div class="markdown level1 summary"><p>Gets a value that is representative of the genome's complexity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Complexity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Neat_Genome_NeatGenome_1_Complexity_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For a NEAT genome we take the number of connections as representative of genome complexity.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_ConnectionGenes.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.ConnectionGenes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L51">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_ConnectionGenes_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.ConnectionGenes*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_ConnectionGenes" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.ConnectionGenes">ConnectionGenes</h4>
+  <div class="markdown level1 summary"><p>Connection genes data structure.
+These define both the neural network structure/topology and the connection weights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConnectionGenes&lt;T&gt; ConnectionGenes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.Genome.ConnectionGenes-1.html">ConnectionGenes</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_ConnectionIndexMap.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.ConnectionIndexMap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L101">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_ConnectionIndexMap_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.ConnectionIndexMap*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_ConnectionIndexMap" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.ConnectionIndexMap">ConnectionIndexMap</h4>
+  <div class="markdown level1 summary"><p>Cached info related to acyclic digraphs only.</p>
+<p>Represents a mapping between genome connection indexes (in NeatGenome.ConnectionGenes), to reordered connections
+based on depth based node index allocations (as utilised in DirectedGraphAcyclic).</p>
+<p>This allows for mapping of weights from NeatGenome.ConnectionGenes to the re-ordered weight array used by the neural
+net implementation (AcyclicNeuralNet).</p>
+<p>The mapping is in the form of an array of indexes into NeatGenome.ConnectionGenes, i.e. the position in the index
+is the 'new' index (the digraph index), and the value stored at that position is the 'old' index (the genome
+connection index).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[]? ConnectionIndexMap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_DirectedGraph.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.DirectedGraph%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L86">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_DirectedGraph_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.DirectedGraph*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_DirectedGraph" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.DirectedGraph">DirectedGraph</h4>
+  <div class="markdown level1 summary"><p>The directed graph that the current genome represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DirectedGraph DirectedGraph { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.DirectedGraph.html">DirectedGraph</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Neat_Genome_NeatGenome_1_DirectedGraph_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This digraph mirrors the graph described by <a class="xref" href="SharpNeat.Neat.Genome.NeatGenome-1.html#SharpNeat_Neat_Genome_NeatGenome_1_ConnectionGenes">ConnectionGenes</a>; this object represents the
+graph structure only, not the weights, and is therefore re-used when spawning genomes with the same structure
+(i.e. a child that is the result of connection weight mutations only).
+The DirectedGraph class provides an efficient means of working with graphs and is therefore made available
+on this class to provide improved performance for:</p>
+<ul>
+<li>Decoding to a neural net object.</li>
+<li>Finding new connections on acyclic graphs, i.e. detecting if a random new connection would form a cycle.</li>
+</ul>
+<p>Note. When MetaNeatGenome.IsAcyclic is true then the object stored here will be of the subtype <a class="xref" href="SharpNeat.Graphs.Acyclic.DirectedGraphAcyclic.html">DirectedGraphAcyclic</a> .</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_FitnessInfo.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.FitnessInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L28">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_FitnessInfo_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.FitnessInfo*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_FitnessInfo" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.FitnessInfo">FitnessInfo</h4>
+  <div class="markdown level1 summary"><p>Genome fitness info.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FitnessInfo FitnessInfo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Evaluation.FitnessInfo.html">FitnessInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_HiddenNodeIdArray.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.HiddenNodeIdArray%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L62">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_HiddenNodeIdArray_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.HiddenNodeIdArray*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_HiddenNodeIdArray" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.HiddenNodeIdArray">HiddenNodeIdArray</h4>
+  <div class="markdown level1 summary"><p>An array of hidden node IDs, sorted to allow efficient lookup of an ID with a binary search.
+Input and output node IDs are not included because these are allocated fixed IDs starting from zero
+and are therefore always known.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] HiddenNodeIdArray { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_Id.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.Id%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L17">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_Id_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.Id*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_Id" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Genome ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_MetaNeatGenome.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.MetaNeatGenome%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L45">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_MetaNeatGenome_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.MetaNeatGenome*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_MetaNeatGenome" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.MetaNeatGenome">MetaNeatGenome</h4>
+  <div class="markdown level1 summary"><p>Genome metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MetaNeatGenome&lt;T&gt; MetaNeatGenome { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Neat.Genome.MetaNeatGenome-1.html">MetaNeatGenome</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_NodeIndexByIdMap.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.NodeIndexByIdMap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L70">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_NodeIndexByIdMap_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.NodeIndexByIdMap*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_NodeIndexByIdMap" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.NodeIndexByIdMap">NodeIndexByIdMap</h4>
+  <div class="markdown level1 summary"><p>Mapping function for obtaining a node index for a given node ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INodeIdMap NodeIndexByIdMap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpNeat.Graphs.INodeIdMap.html">INodeIdMap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Neat_Genome_NeatGenome_1_NodeIndexByIdMap_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Node indexes have a range of 0 to N-1 (for N nodes), i.e. the indexes are zero based and contiguous; as opposed to node IDs, which are not contiguous.</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_ContainsHiddenNode_System_Int32_.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.ContainsHiddenNode(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L157">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_ContainsHiddenNode_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.ContainsHiddenNode*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_ContainsHiddenNode_System_Int32_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.ContainsHiddenNode(System.Int32)">ContainsHiddenNode(int)</h4>
+  <div class="markdown level1 summary"><p>Tests if the genome contains a connection that refers to the given hidden node ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsHiddenNode(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>Node ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the genome contains a hidden node with the specified ID; otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1_GetDigraphWeightArray.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601.GetDigraphWeightArray%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L171">View Source</a>
+  </span>
+  <a id="SharpNeat_Neat_Genome_NeatGenome_1_GetDigraphWeightArray_" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.GetDigraphWeightArray*"></a>
+  <h4 id="SharpNeat_Neat_Genome_NeatGenome_1_GetDigraphWeightArray" data-uid="SharpNeat.Neat.Genome.NeatGenome`1.GetDigraphWeightArray">GetDigraphWeightArray()</h4>
+  <div class="markdown level1 summary"><p>Gets an array of connection weights, ordered to match the connections of <a class="xref" href="SharpNeat.Neat.Genome.NeatGenome-1.html#SharpNeat_Neat_Genome_NeatGenome_1_DirectedGraph">DirectedGraph</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T[] GetDigraphWeightArray()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><p>An array of connection weights.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharpNeat_Neat_Genome_NeatGenome_1_GetDigraphWeightArray_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For cyclic genomes this is simply the genome's weight array, but for acyclic genomes the digraph and genome
+represent connections in a different order, thus for acyclic genomes/digraphs this method will return a new
+array with the weights in the digraph order.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SharpNeat.EvolutionAlgorithm.IGenome.html">IGenome</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/new/main/apiSpec/new?filename=SharpNeat_Neat_Genome_NeatGenome_1.md&amp;value=---%0Auid%3A%20SharpNeat.Neat.Genome.NeatGenome%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/colgreen/sharpneat/blob/main/src/docfx_project/src/SharpNeat/Neat/Genome/NeatGenome.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
