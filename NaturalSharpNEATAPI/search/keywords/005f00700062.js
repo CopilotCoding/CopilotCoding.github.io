@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_pb",["Variable"],[["_pbx",,[["PreyCaptureControl",,,,0,"File:src/SharpNeat.Tasks.Windows/PreyCapture/PreyCaptureControl.cs:PreyCaptureControl._pbx","CSharpClass:PreyCaptureControl:_pbx"]]]]);

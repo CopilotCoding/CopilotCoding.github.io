@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__u",["Variable"],[["__utf8Encoding",,[["NetFile",,,,0,"File:src/SharpNeat/IO/NetFile.cs:NetFile.__utf8Encoding","CSharpClass:NetFile:__utf8Encoding"]]]]);

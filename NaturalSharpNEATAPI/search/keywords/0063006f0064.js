@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cod",["Property"],[["Code",,[["ActivationFnLine",,,,0,"File:src/SharpNeat/IO/Models/ActivationFnLine.cs:ActivationFnLine.Code","CSharpClass:ActivationFnLine:Code"]]]]);

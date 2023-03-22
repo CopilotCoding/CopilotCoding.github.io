@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("uti",["Class"],[["Utils",,[[,,,,0,"File:src/SharpNeat.Windows.App/Utils.cs:Utils","CSharpClass:Utils"]]]]);

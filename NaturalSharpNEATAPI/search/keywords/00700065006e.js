@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pen",["Property"],[["PendingAddsList",,[["Species",,,,0,"File:src/SharpNeat/Neat/Speciation/Species.cs:Species.PendingAddsList","CSharpClass:Species:PendingAddsList"]]],["PendingRemovesList",,[["Species",,,,0,"File:src/SharpNeat/Neat/Speciation/Species.cs:Species.PendingRemovesList","CSharpClass:Species:PendingRemovesList"]]]]);

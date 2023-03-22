@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("iev",["Interface"],[["IEvolutionAlgorithm",,[[,,,,0,"File:src/SharpNeat/EvolutionAlgorithm/IEvolutionAlgorithm.cs:IEvolutionAlgorithm","CSharpClass:IEvolutionAlgorithm"]]],["IEvolutionAlgorithmHost",,[[,,,,0,"File:src/EfficacySampler/IEvolutionAlgorithmHost.cs:IEvolutionAlgorithmHost","CSharpClass:IEvolutionAlgorithmHost"]]]]);

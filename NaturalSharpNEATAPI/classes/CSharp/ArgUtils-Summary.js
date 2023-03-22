@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:ArgUtils","ArgUtils");NDSummary.OnSummaryLoaded("CSharpClass:ArgUtils",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[259,0,0,"ArgUtils"],[260,0,2,"Functions","Functions"],[261,0,1,"ReadArgs","ReadArgs"],[262,0,1,"ReadStopCondition","ReadStopCondition"],[263,0,1,"PrintHelp","PrintHelp"]]);

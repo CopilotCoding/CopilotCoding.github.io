@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:StatsGraphForm","StatsGraphForm");NDSummary.OnSummaryLoaded("CSharpClass:StatsGraphForm",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3202,0,0,"StatsGraphForm"],[3203,0,2,"Functions","Functions"],[3204,0,1,"StatsGraphForm","StatsGraphForm"],[3205,0,1,"UpdateData","UpdateData"]]);

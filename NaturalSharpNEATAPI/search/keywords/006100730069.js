@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("asi",["Function"],[["Asinh",,[["ArcSinH",,,,0,"File:src/SharpNeat/NeuralNets/Double/ActivationFunctions/ArcSinH.cs:ArcSinH.Asinh","CSharpClass:ArcSinH:Asinh"]]]]);

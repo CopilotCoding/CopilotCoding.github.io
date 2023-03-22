@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("han",["Function"],[["HandleFormOpening",,[["MainForm",,,,0,"File:src/SharpNeat.Windows.App/MainForm.MenuEvents.cs:MainForm.HandleFormOpening","CSharpClass:MainForm:HandleFormOpening"]]]]);

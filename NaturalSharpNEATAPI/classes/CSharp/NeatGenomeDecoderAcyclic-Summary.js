@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NeatGenomeDecoderAcyclic","NeatGenomeDecoderAcyclic");NDSummary.OnSummaryLoaded("CSharpClass:NeatGenomeDecoderAcyclic",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[1206,0,0,"NeatGenomeDecoderAcyclic"],[1207,0,2,"Functions","Functions"],[1213,0,1,"Decode","Decode"]]);

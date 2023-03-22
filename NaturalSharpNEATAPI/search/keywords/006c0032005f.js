@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("l2_",["Constant"],[["l2_hat",,[["CartDoublePolePhysicsRK4",,,,0,"File:src/SharpNeat.Tasks/CartPole/DoublePole/CartDoublePolePhysicsRK4.cs:CartDoublePolePhysicsRK4.l2_hat","CSharpClass:CartDoublePolePhysicsRK4:l2_hat"]]]]);

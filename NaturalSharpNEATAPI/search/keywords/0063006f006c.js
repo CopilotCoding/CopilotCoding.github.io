@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("col",["Property","Operator"],[["Color",,[["SummaryDataSource",,,,0,"File:src/SharpNeat.Windows.App/SummaryDataSource.cs:SummaryDataSource.Color","CSharpClass:SummaryDataSource:Color"],["HSLColor","operator Color",,,1,"File:src/SharpNeat.Drawing/HSLColor.cs:HSLColor.operator_Color","CSharpClass:HSLColor:operator_Color"]]]]);

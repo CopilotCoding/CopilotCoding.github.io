@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NeatGenomeSaver","NeatGenomeSaver");NDSummary.OnSummaryLoaded("CSharpClass:NeatGenomeSaver",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[1231,0,0,"NeatGenomeSaver"],[1232,0,2,"Functions","Functions"],[1233,0,1,"Save","Save"],[1234,0,1,"Save","Save(2)"]]);

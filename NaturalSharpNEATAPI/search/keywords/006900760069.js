@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ivi",["Interface"],[["IViewportPainter",,[[,,,,0,"File:src/SharpNeat.Drawing/IViewportPainter.cs:IViewportPainter","CSharpClass:IViewportPainter"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cpp",["Variable"],[["Cppn",,[["SharpNeat.NeuralNets.Double.ActivationFunctions",,,,0,"File:src/SharpNeat/NeuralNets/Double/ActivationFunctions/Cppn/BipolarGaussian.cs:SharpNeat.NeuralNets.Double.ActivationFunctions.Cppn"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("swa",["Function"],[["Swap",,[["ConnectionSorter",,,,0,"File:src/SharpNeat/Graphs/ConnectionSorter.cs:ConnectionSorter.Swap","CSharpClass:ConnectionSorter:Swap"]]],["SwapIfGreater",,[["ConnectionSorter",,,,0,"File:src/SharpNeat/Graphs/ConnectionSorter.cs:ConnectionSorter.SwapIfGreater","CSharpClass:ConnectionSorter:SwapIfGreater"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("len",["Property"],[["Length",,[["ConnectionGenes",,,,0,"File:src/SharpNeat/Neat/Genome/ConnectionGenes.cs:ConnectionGenes.Length","CSharpClass:ConnectionGenes:Length"],["ConnectionIds",,,,0,"File:src/SharpNeat/Graphs/ConnectionIds.cs:ConnectionIds.Length","CSharpClass:ConnectionIds:Length"]]]]);

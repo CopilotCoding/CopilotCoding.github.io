@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dra",["Variable"],[["Drawing",,[["SharpNeat",,,,0,"File:src/SharpNeat.Drawing/Graph/DirectedGraphViewModel.cs:SharpNeat.Drawing"]]]]);

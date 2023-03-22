@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NeatGenomeBuilderFactory","NeatGenomeBuilderFactory");NDSummary.OnSummaryLoaded("CSharpClass:NeatGenomeBuilderFactory",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[1273,0,0,"NeatGenomeBuilderFactory"],[1274,0,2,"Functions","Functions"],[1275,0,1,"Create","Create"]]);

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:SelectAllStrategy","SelectAllStrategy");NDSummary.OnSummaryLoaded("CSharpClass:SelectAllStrategy",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3957,0,0,"SelectAllStrategy"],[3958,0,2,"Functions","Functions"],[3959,0,1,"SelectSubset","SelectSubset"]]);

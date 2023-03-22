@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("uia",["Class"],[["UiAccessUtils",,[[,,,,0,"File:src/SharpNeat.Windows.App/UiAccessUtils.cs:UiAccessUtils","CSharpClass:UiAccessUtils"]]]]);

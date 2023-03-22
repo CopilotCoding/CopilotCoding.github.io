@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IEvolutionAlgorithmHost","IEvolutionAlgorithmHost");NDSummary.OnSummaryLoaded("CSharpClass:IEvolutionAlgorithmHost",[["C#","CSharp"]],[["Functions","Function"],["Groups","Group"],["Interfaces","Interface"]],[[254,0,2,"IEvolutionAlgorithmHost"],[255,0,1,"Functions","Functions"],[256,0,0,"Sample","Sample"]]);

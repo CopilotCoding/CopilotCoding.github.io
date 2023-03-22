@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("all",["Function"],[["AllocateEliteSelectionOffspringCounts",,[["SpeciesAllocationCalcs",,,,0,"File:src/SharpNeat/Neat/SpeciesAllocationCalcs.cs:SpeciesAllocationCalcs.AllocateEliteSelectionOffspringCounts","CSharpClass:SpeciesAllocationCalcs:AllocateEliteSelectionOffspringCounts"]]]]);

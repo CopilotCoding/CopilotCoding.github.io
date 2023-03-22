@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sys",["Class"],[["SysInfo",,[[,,,,0,"File:src/EfficacySampler/SysInfo.cs:SysInfo","CSharpClass:SysInfo"]]]]);

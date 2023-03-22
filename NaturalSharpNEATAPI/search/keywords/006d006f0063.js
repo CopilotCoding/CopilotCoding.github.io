@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("moc",["Class"],[["MockGenome",,[[,,,,0,"File:src/Tests/SharpNeat.Tests/EvolutionAlgorithm/MockGenome.cs:MockGenome","CSharpClass:MockGenome"]]],["MockPreyCaptureAgent",,[[,,,,0,"File:src/Benchmarks/SharpNeat.Tasks.Benchmarks/PreyCapture/MockPreyCaptureAgent.cs:MockPreyCaptureAgent","CSharpClass:MockPreyCaptureAgent"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dic",["Class"],[["DictionaryNodeIdMap",,[[,,,,0,"File:src/SharpNeat/Graphs/DictionaryNodeIdMap.cs:DictionaryNodeIdMap","CSharpClass:DictionaryNodeIdMap"]]],["DictionaryNodeIdMapTests",,[[,,,,0,"File:src/Tests/SharpNeat.Tests/Graphs/DictionaryNodeIdMapTests.cs:DictionaryNodeIdMapTests","CSharpClass:DictionaryNodeIdMapTests"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_de",["Variable"],[["_deleteConnectionStrategy",,[["NeatReproductionAsexual",,,,0,"File:src/SharpNeat/Neat/Reproduction/Asexual/NeatReproductionAsexual.cs:NeatReproductionAsexual._deleteConnectionStrategy","CSharpClass:NeatReproductionAsexual:_deleteConnectionStrategy"]]]]);

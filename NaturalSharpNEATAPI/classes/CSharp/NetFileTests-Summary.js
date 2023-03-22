@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NetFileTests","NetFileTests");NDSummary.OnSummaryLoaded("CSharpClass:NetFileTests",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3781,0,0,"NetFileTests"],[3782,0,2,"Functions","Functions"],[3783,0,1,"Load","Load"],[3784,0,1,"Save","Save"]]);

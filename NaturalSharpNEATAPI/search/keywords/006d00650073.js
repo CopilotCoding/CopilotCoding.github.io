@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mes",["Property"],[["Message",,[["Logger.LogItem",,,,0,"File:src/SharpNeat.Windows.App/Logger.cs:Logger.LogItem.Message","CSharpClass:Logger.LogItem:Message"]]]]);

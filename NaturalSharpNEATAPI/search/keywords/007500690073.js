@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("uis",["Variable"],[["UiSandbox",,[[,,,,0,"File:src/Tests/UiSandbox/Form1.cs:UiSandbox"]]]]);

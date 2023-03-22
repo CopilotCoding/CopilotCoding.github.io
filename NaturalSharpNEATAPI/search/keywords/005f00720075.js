@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_ru",["Variable"],[["_runState",,[["EvolutionAlgorithmRunner",,,,0,"File:src/SharpNeat/EvolutionAlgorithm/Runner/EvolutionAlgorithmRunner.cs:EvolutionAlgorithmRunner._runState","CSharpClass:EvolutionAlgorithmRunner:_runState"]]]]);

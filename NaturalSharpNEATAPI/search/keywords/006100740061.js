@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ata",["Function"],[["Atan2LookupTable",,[["PreyCaptureWorldTests",,,,0,"File:src/Tests/SharpNeat.Tasks.Tests/PreyCapture/PreyCaptureWorldTests.cs:PreyCaptureWorldTests.Atan2LookupTable","CSharpClass:PreyCaptureWorldTests:Atan2LookupTable"]]]]);

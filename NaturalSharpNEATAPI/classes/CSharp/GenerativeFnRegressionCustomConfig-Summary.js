@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:GenerativeFnRegressionCustomConfig","GenerativeFnRegressionCustomConfig");NDSummary.OnSummaryLoaded("CSharpClass:GenerativeFnRegressionCustomConfig",[["C#","CSharp"]],[["Classes","Class"]],[[2827,0,0,"GenerativeFnRegressionCustomConfig"]]);

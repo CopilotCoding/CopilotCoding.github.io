@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_g",["Variable"],[["_g",,[["PaintState",,,,0,"File:src/SharpNeat.Drawing/Graph/Painting/PaintState.cs:PaintState._g","CSharpClass:PaintState:_g"]]]]);

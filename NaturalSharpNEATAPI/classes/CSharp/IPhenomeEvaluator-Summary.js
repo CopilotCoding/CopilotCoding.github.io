@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IPhenomeEvaluator","IPhenomeEvaluator");NDSummary.OnSummaryLoaded("CSharpClass:IPhenomeEvaluator",[["C#","CSharp"]],[["Functions","Function"],["Groups","Group"],["Interfaces","Interface"]],[[334,0,2,"IPhenomeEvaluator"],[335,0,1,"Functions","Functions"],[336,0,0,"Evaluate","Evaluate"]]);

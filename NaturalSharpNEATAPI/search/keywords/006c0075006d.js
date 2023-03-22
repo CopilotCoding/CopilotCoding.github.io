@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("lum",["Property"],[["Luminosity",,[["HSLColor",,,,0,"File:src/SharpNeat.Drawing/HSLColor.cs:HSLColor.Luminosity","CSharpClass:HSLColor:Luminosity"]]]]);

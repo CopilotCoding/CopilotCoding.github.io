@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IGraphLayoutScheme","IGraphLayoutScheme");NDSummary.OnSummaryLoaded("CSharpClass:IGraphLayoutScheme",[["C#","CSharp"]],[["Functions","Function"],["Groups","Group"],["Interfaces","Interface"]],[[2456,0,2,"IGraphLayoutScheme"],[2457,0,1,"Functions","Functions"],[2458,0,0,"Layout","Layout"],[2459,0,0,"Layout","Layout(2)"]]);

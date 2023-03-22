@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("for",["Class","Variable"],[["Form1",,[[,,,,0,"File:src/Tests/UiSandbox/Form1.cs:Form1","CSharpClass:Form1"],["UiSandbox",,,,0,"File:src/Tests/UiSandbox/Form1.Designer.cs:UiSandbox.Form1","CSharpClass:UiSandbox.Form1"]]],["Forms",,[["SharpNeat.Windows.App",,,,1,"File:src/SharpNeat.Windows.App/Forms/AboutForm.cs:SharpNeat.Windows.App.Forms"]]]]);

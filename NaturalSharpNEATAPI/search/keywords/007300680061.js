@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sha",["Variable"],[["SharpNeat",,[[,,,,0,"File:src/SharpNeat/ConfigurationException.cs:SharpNeat"]]]]);

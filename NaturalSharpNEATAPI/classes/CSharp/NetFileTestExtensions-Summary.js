@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NetFileTestExtensions","NetFileTestExtensions");NDSummary.OnSummaryLoaded("CSharpClass:NetFileTestExtensions",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3799,0,0,"NetFileTestExtensions"],[3800,0,2,"Functions","Functions"],[3801,0,1,"Validate","Validate"],[3802,0,1,"Validate","Validate(2)"]]);

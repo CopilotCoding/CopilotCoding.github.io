@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("thi",["Operator"],[["this",,[["ConnectionGenes",,,,0,"File:src/SharpNeat/Neat/Genome/ConnectionGenes.cs:ConnectionGenes.this","CSharpClass:ConnectionGenes:this"]]]]);

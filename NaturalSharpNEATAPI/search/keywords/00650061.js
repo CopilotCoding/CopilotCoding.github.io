@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ea",["Property"],[["EA",,[["EvolutionAlgorithmRunner",,,,0,"File:src/SharpNeat/EvolutionAlgorithm/Runner/EvolutionAlgorithmRunner.cs:EvolutionAlgorithmRunner.EA","CSharpClass:EvolutionAlgorithmRunner:EA"]]]]);

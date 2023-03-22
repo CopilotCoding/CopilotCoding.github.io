@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("idi",["Interface"],[["IDistanceMetric",,[[,,,,0,"File:src/SharpNeat/Neat/DistanceMetrics/IDistanceMetric.cs:IDistanceMetric","CSharpClass:IDistanceMetric"]]]]);

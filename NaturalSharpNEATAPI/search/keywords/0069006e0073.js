@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ins",["Function"],[["InsertionSort",,[["ConnectionSorter",,,,0,"File:src/SharpNeat/Graphs/ConnectionSorter.cs:ConnectionSorter.InsertionSort","CSharpClass:ConnectionSorter:InsertionSort"]]]]);

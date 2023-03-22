@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_pl",["Variable"],[["_plotColorArr",,[["SummaryGraphForm",,,,0,"File:src/SharpNeat.Windows.App/SummaryGraphForm.cs:SummaryGraphForm._plotColorArr","CSharpClass:SummaryGraphForm:_plotColorArr"]]]]);

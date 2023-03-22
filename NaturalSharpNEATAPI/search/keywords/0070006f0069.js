@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("poi",["Struct"],[["Point2DDouble",,[[,,,,0,"File:src/SharpNeat.Windows.App/Point2DDouble.cs:Point2DDouble","CSharpClass:Point2DDouble"]]]]);

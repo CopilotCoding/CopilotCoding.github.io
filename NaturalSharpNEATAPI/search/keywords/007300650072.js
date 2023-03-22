@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ser",["Class"],[["SerialGenomeListEvaluator",,[[,,,,0,"File:src/SharpNeat/Evaluation/SerialGenomeListEvaluator.cs:SerialGenomeListEvaluator","CSharpClass:SerialGenomeListEvaluator"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__b",["Variable"],[["__bindingList",,[["Logger",,,,0,"File:src/SharpNeat.Windows.App/Logger.cs:Logger.__bindingList","CSharpClass:Logger:__bindingList"]]]]);

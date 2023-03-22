@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("io",["Variable"],[["IO",,[["SharpNeat",,,,0,"File:src/SharpNeat/IO/FileFormatException.cs:SharpNeat.IO"],["SharpNeat.Neat.Genome",,,,0,"File:src/SharpNeat/Neat/Genome/IO/NeatGenomeConverter.cs:SharpNeat.Neat.Genome.IO"],["SharpNeat.NeuralNets",,,,0,"File:src/SharpNeat/NeuralNets/IO/NeuralNetConverter.cs:SharpNeat.NeuralNets.IO"]]]]);

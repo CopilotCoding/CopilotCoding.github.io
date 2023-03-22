@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_ym",["Variable"],[["_yMseWeight",,[["FuncRegressionEvaluator",,,,0,"File:src/SharpNeat.Tasks/FunctionRegression/FuncRegressionEvaluator.cs:FuncRegressionEvaluator._yMseWeight","CSharpClass:FuncRegressionEvaluator:_yMseWeight"]]]]);

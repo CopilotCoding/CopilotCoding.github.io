@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:XorEvaluator","XorEvaluator");NDSummary.OnSummaryLoaded("CSharpClass:XorEvaluator",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[2991,0,0,"XorEvaluator"],[2992,0,2,"Functions","Functions"],[2993,0,1,"Evaluate","Evaluate"],[2994,0,1,"Activate","Activate"],[2995,0,1,"Clip","Clip"]]);

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:DirectedGraphBuilderUtils","DirectedGraphBuilderUtils");NDSummary.OnSummaryLoaded("CSharpClass:DirectedGraphBuilderUtils",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[796,0,0,"DirectedGraphBuilderUtils"],[797,0,2,"Functions","Functions"],[798,0,1,"CompileNodeIdMap","CompileNodeIdMap"]]);

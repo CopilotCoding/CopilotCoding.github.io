@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:StopCondition","StopCondition");NDSummary.OnSummaryLoaded("CSharpClass:StopCondition",[["C#","CSharp"]],[["Classes","Class"],["Groups","Group"],["Variables","Variable"]],[[222,0,0,"StopCondition"],[223,0,1,"Variables","Variables"],[224,0,2,"StopConditionType","StopConditionType"],[225,0,2,"Value","Value"]]);

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IExperimentUiFactory","IExperimentUiFactory");NDSummary.OnSummaryLoaded("CSharpClass:IExperimentUiFactory",[["C#","CSharp"]],[["Functions","Function"],["Groups","Group"],["Interfaces","Interface"]],[[3074,0,2,"IExperimentUiFactory"],[3075,0,1,"Functions","Functions"],[3076,0,0,"CreateExperimentUi","CreateExperimentUi"]]);

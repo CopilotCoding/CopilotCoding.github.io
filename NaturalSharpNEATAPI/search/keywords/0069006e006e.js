@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("inn",["Property"],[["InnovationIdSeq",,[["NeatPopulation",,,,0,"File:src/SharpNeat/Neat/NeatPopulation.cs:NeatPopulation.InnovationIdSeq","CSharpClass:NeatPopulation:InnovationIdSeq"]]]]);

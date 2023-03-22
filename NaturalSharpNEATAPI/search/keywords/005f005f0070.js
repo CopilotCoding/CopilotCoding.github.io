@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__p",["Variable"],[["__PolynomialApproximantSteep",,[["ActivationFunctionsBenchmarks",,,,0,"File:src/Benchmarks/SharpNeat.Benchmarks/NeuralNets/Double/ActivationFunctions/ActivationFunctionsBenchmarks.cs:ActivationFunctionsBenchmarks.__PolynomialApproximantSteep","CSharpClass:ActivationFunctionsBenchmarks:__PolynomialApproximantSteep"]]]]);

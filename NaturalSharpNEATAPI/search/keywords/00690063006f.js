@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ico",["Interface"],[["IComplexityRegulationStrategy",,[[,,,,0,"File:src/SharpNeat/Neat/ComplexityRegulation/IComplexityRegulationStrategy.cs:IComplexityRegulationStrategy","CSharpClass:IComplexityRegulationStrategy"]]]]);

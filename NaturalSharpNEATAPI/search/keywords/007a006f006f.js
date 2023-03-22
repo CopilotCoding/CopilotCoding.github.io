@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("zoo",["Property"],[["ZoomFactor",,[["ViewportControl",,,,0,"File:src/SharpNeat.Windows/ViewportControl.cs:ViewportControl.ZoomFactor","CSharpClass:ViewportControl:ZoomFactor"]]]]);

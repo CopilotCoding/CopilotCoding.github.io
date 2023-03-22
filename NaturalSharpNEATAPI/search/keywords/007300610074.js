@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sat",["Property"],[["Saturation",,[["HSLColor",,,,0,"File:src/SharpNeat.Drawing/HSLColor.cs:HSLColor.Saturation","CSharpClass:HSLColor:Saturation"]]]]);

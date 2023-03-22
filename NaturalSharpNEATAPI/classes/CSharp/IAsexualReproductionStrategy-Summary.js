@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IAsexualReproductionStrategy","IAsexualReproductionStrategy");NDSummary.OnSummaryLoaded("CSharpClass:IAsexualReproductionStrategy",[["C#","CSharp"]],[["Interfaces","Interface"]],[[1359,0,0,"IAsexualReproductionStrategy"]]);

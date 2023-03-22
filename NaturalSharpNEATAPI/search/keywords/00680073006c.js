@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("hsl",["Class","Operator"],[["HSLColor",,[[,,,,0,"File:src/SharpNeat.Drawing/HSLColor.cs:HSLColor","CSharpClass:HSLColor"],["HSLColor","operator HSLColor",,,1,"File:src/SharpNeat.Drawing/HSLColor.cs:HSLColor.operator_HSLColor","CSharpClass:HSLColor:operator_HSLColor"]]]]);

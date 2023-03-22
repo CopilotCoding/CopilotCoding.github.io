@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ref",["Function"],[["RefreshGraph",,[["GraphForm",,,,0,"File:src/SharpNeat.Windows.App/Forms/GraphForm.cs:GraphForm.RefreshGraph","CSharpClass:GraphForm:RefreshGraph"]]],["RefreshView",,[["SummaryGraphForm",,,,0,"File:src/SharpNeat.Windows.App/SummaryGraphForm.cs:SummaryGraphForm.RefreshView","CSharpClass:SummaryGraphForm:RefreshView"]]]]);

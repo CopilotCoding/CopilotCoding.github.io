@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("nes",["Class"],[["NestGenomeTestUtils",,[[,,,,0,"File:src/Tests/SharpNeat.Tests/Neat/Genome/NestGenomeTestUtils.cs:NestGenomeTestUtils","CSharpClass:NestGenomeTestUtils"]]]]);

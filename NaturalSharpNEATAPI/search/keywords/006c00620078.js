@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("lbx",["Variable"],[["lbxLog",,[["SharpNeat.Windows.App.MainForm",,,,0,"File:src/SharpNeat.Windows.App/MainForm.Designer.cs:SharpNeat.Windows.App.MainForm.lbxLog","CSharpClass:SharpNeat.Windows.App.MainForm:lbxLog"]]]]);

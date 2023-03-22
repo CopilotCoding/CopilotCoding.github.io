@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("x",["Variable","Property"],[["X",,[["Int32Point",,,,0,"File:src/SharpNeat.Tasks/PreyCapture/Int32Point.cs:Int32Point.X","CSharpClass:Int32Point:X"],["Point2DDouble",,,,1,"File:src/SharpNeat.Windows.App/Point2DDouble.cs:Point2DDouble.X","CSharpClass:Point2DDouble:X"]]]]);

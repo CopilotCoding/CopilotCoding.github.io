@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("t",["Function"],[["T",,[["PreyCaptureWorld",,,,0,"File:src/SharpNeat.Tasks/PreyCapture/PreyCaptureWorld.cs:PreyCaptureWorld.T","CSharpClass:PreyCaptureWorld:T"]]]]);

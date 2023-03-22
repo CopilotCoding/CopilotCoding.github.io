@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("clo",["Function"],[["CloneAndMap",,[["DirectedConnectionUtils",,,,0,"File:src/SharpNeat/Graphs/DirectedConnectionUtils.cs:DirectedConnectionUtils.CloneAndMap","CSharpClass:DirectedConnectionUtils:CloneAndMap"]]]]);

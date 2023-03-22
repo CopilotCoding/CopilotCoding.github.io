@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ave",["Property"],[["AverageSpeciesBestFitness",,[["NeatPopulationStatistics",,,,0,"File:src/SharpNeat/Neat/NeatPopulationStatistics.cs:NeatPopulationStatistics.AverageSpeciesBestFitness","CSharpClass:NeatPopulationStatistics:AverageSpeciesBestFitness"]]]]);

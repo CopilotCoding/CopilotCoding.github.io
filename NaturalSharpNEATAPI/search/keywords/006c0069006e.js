@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("lin",["Class"],[["Linear",,[[,,,,0,"File:src/SharpNeat/NeuralNets/Double/ActivationFunctions/Cppn/Linear.cs:Linear","CSharpClass:Linear"]]]]);

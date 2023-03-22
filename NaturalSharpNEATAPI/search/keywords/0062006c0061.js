@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("bla",["Class"],[["BlackBoxProbe",,[[,,,,0,"File:src/SharpNeat.Tasks/FunctionRegression/BlackBoxProbe.cs:BlackBoxProbe","CSharpClass:BlackBoxProbe"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ela",["Variable"],[["ElapsedTimeSecs",,[["Sample",,,,0,"File:src/EfficacySampler/Sample.cs:Sample.ElapsedTimeSecs","CSharpClass:Sample:ElapsedTimeSecs"]]]]);

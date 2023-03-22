@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:PreyCaptureCustomConfig","PreyCaptureCustomConfig");NDSummary.OnSummaryLoaded("CSharpClass:PreyCaptureCustomConfig",[["C#","CSharp"]],[["Classes","Class"]],[[2873,0,0,"PreyCaptureCustomConfig"]]);

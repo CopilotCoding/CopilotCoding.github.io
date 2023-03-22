@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__j",["Variable"],[["__jsonOptions",,[["JsonUtils",,,,0,"File:src/SharpNeat/IO/JsonUtils.cs:JsonUtils.__jsonOptions","CSharpClass:JsonUtils:__jsonOptions"]]]]);

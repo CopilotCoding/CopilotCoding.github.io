@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("igr",["Interface"],[["IGraphLayoutScheme",,[[,,,,0,"File:src/SharpNeat.Drawing/Graph/IGraphLayoutScheme.cs:IGraphLayoutScheme","CSharpClass:IGraphLayoutScheme"]]]]);

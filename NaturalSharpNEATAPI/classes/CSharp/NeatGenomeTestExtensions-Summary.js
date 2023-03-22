@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NeatGenomeTestExtensions","NeatGenomeTestExtensions");NDSummary.OnSummaryLoaded("CSharpClass:NeatGenomeTestExtensions",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3895,0,0,"NeatGenomeTestExtensions"],[3896,0,2,"Functions","Functions"],[3897,0,1,"Validate","Validate"]]);

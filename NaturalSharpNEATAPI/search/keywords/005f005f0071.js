@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__q",["Variable"],[["__QuadraticSigmoid",,[["ActivationFunctionsBenchmarks",,,,0,"File:src/Benchmarks/SharpNeat.Benchmarks/NeuralNets/Double/ActivationFunctions/ActivationFunctionsBenchmarks.cs:ActivationFunctionsBenchmarks.__QuadraticSigmoid","CSharpClass:ActivationFunctionsBenchmarks:__QuadraticSigmoid"]]]]);

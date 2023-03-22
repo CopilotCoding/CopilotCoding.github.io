@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NeatExperimentExtensionsTests","NeatExperimentExtensionsTests");NDSummary.OnSummaryLoaded("CSharpClass:NeatExperimentExtensionsTests",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3673,0,0,"NeatExperimentExtensionsTests"],[3674,0,2,"Functions","Functions"],[3675,0,1,"Configure","Configure"]]);

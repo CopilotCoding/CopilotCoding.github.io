@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:SysInfo","SysInfo");NDSummary.OnSummaryLoaded("CSharpClass:SysInfo",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[217,0,0,"SysInfo"],[218,0,2,"Functions","Functions"],[219,0,1,"DumpSystemInfo","DumpSystemInfo"]]);

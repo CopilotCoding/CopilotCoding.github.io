@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IGenomeDecoder","IGenomeDecoder");NDSummary.OnSummaryLoaded("CSharpClass:IGenomeDecoder",[["C#","CSharp"]],[["Functions","Function"],["Groups","Group"],["Interfaces","Interface"]],[[402,0,2,"IGenomeDecoder"],[403,0,1,"Functions","Functions"],[404,0,0,"Decode","Decode"]]);

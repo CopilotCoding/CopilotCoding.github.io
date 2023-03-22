@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("bip",["Class"],[["BipolarGaussian",,[[,,,,0,"File:src/SharpNeat/NeuralNets/Double/ActivationFunctions/Cppn/BipolarGaussian.cs:BipolarGaussian","CSharpClass:BipolarGaussian"]]],["BipolarSigmoid",,[[,,,,0,"File:src/SharpNeat/NeuralNets/Double/ActivationFunctions/Cppn/BipolarSigmoid.cs:BipolarSigmoid","CSharpClass:BipolarSigmoid"]]]]);

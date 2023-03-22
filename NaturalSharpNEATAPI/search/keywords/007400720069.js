@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("tri",["Function"],[["TrimSpeciesBackToElite",,[["NeatEvolutionAlgorithm",,,,0,"File:src/SharpNeat/Neat/EvolutionAlgorithm/NeatEvolutionAlgorithm.cs:NeatEvolutionAlgorithm.TrimSpeciesBackToElite","CSharpClass:NeatEvolutionAlgorithm:TrimSpeciesBackToElite"]]]]);

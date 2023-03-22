@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("wri",["Function"],[["Write",,[["NetFileWriter",,,,0,"File:src/SharpNeat/IO/NetFileWriter.cs:NetFileWriter.Write","CSharpClass:NetFileWriter:Write"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("pos",["Property"],[["PositiveWeightColor",,[["PainterSettings",,,,0,"File:src/SharpNeat.Drawing/Graph/Painting/PainterSettings.cs:PainterSettings.PositiveWeightColor","CSharpClass:PainterSettings:PositiveWeightColor"]]]]);

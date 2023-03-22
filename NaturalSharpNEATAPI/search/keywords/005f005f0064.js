@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__d",["Constant"],[["__defaultInnovationHistoryBufferSize",,[["NeatPopulation",,,,0,"File:src/SharpNeat/Neat/NeatPopulation.cs:NeatPopulation.__defaultInnovationHistoryBufferSize","CSharpClass:NeatPopulation:__defaultInnovationHistoryBufferSize"]]]]);

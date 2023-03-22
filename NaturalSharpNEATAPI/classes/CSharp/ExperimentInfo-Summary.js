@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:ExperimentInfo","ExperimentInfo");NDSummary.OnSummaryLoaded("CSharpClass:ExperimentInfo",[["C#","CSharp"]],[["Classes","Class"]],[[3194,0,0,"ExperimentInfo"]]);

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:GenomeListEvaluatorFactory","GenomeListEvaluatorFactory");NDSummary.OnSummaryLoaded("CSharpClass:GenomeListEvaluatorFactory",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[397,0,0,"GenomeListEvaluatorFactory"],[398,0,2,"Functions","Functions"],[399,0,1,"CreateEvaluator","CreateEvaluator"]]);

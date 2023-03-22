@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:IBlackBoxProbe","IBlackBoxProbe");NDSummary.OnSummaryLoaded("CSharpClass:IBlackBoxProbe",[["C#","CSharp"]],[["Functions","Function"],["Groups","Group"],["Interfaces","Interface"]],[[2742,0,2,"IBlackBoxProbe"],[2743,0,1,"Functions","Functions"],[2744,0,0,"Probe","Probe"]]);

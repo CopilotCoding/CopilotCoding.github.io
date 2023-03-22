@@ -1,0 +1,1 @@
+﻿NDContentPage.OnToolTipsLoaded({3382:"<div class=\"NDToolTip TStruct LCSharp\"><div class=\"NDClassPrototype\" id=\"NDClassPrototype3382\"><div class=\"CPEntry TStruct Current\"><div class=\"CPModifiers\"><span class=\"SHKeyword\">internal</span> <span class=\"SHKeyword\">struct</span></div><div class=\"CPName\">Point2DDouble</div></div></div></div>"});

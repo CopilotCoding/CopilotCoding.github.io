@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("jso",["Class"],[["JsonUtils",,[[,,,,0,"File:src/SharpNeat/IO/JsonUtils.cs:JsonUtils","CSharpClass:JsonUtils"]]]]);

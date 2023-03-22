@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("eff",["Variable"],[["EfficacySampler",,[[,,,,0,"File:src/EfficacySampler/ArgUtils.cs:EfficacySampler"]]]]);

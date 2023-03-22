@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_id",["Variable"],[["_idArr",,[["ConnectionIds",,,,0,"File:src/SharpNeat/Graphs/ConnectionIds.cs:ConnectionIds._idArr","CSharpClass:ConnectionIds:_idArr"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("__i",["Constant"],[["__introsortSizeThreshold",,[["ConnectionSorter",,,,0,"File:src/SharpNeat/Graphs/ConnectionSorter.cs:ConnectionSorter.__introsortSizeThreshold","CSharpClass:ConnectionSorter:__introsortSizeThreshold"]]]]);

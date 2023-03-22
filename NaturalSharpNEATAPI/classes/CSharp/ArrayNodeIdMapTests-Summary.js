@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:ArrayNodeIdMapTests","ArrayNodeIdMapTests");NDSummary.OnSummaryLoaded("CSharpClass:ArrayNodeIdMapTests",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3769,0,0,"ArrayNodeIdMapTests"],[3770,0,2,"Functions","Functions"],[3771,0,1,"Map","Map"]]);

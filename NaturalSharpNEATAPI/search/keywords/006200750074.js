@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("but",["Variable","Function"],[["button1",,[["UiSandbox.Form1",,,,0,"File:src/Tests/UiSandbox/Form1.Designer.cs:UiSandbox.Form1.button1","CSharpClass:UiSandbox.Form1:button1"]]],["button1_Click",,[["Form1",,,,1,"File:src/Tests/UiSandbox/Form1.cs:Form1.button1_Click","CSharpClass:Form1:button1_Click"]]]]);

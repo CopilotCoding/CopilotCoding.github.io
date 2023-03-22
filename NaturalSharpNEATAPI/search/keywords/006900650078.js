@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("iex",["Interface"],[["IExperimentUi",,[[,,,,0,"File:src/SharpNeat.Windows/Experiments/IExperimentUi.cs:IExperimentUi","CSharpClass:IExperimentUi"]]],["IExperimentUiFactory",,[[,,,,0,"File:src/SharpNeat.Windows/Experiments/IExperimentUiFactory.cs:IExperimentUiFactory","CSharpClass:IExperimentUiFactory"]]]]);

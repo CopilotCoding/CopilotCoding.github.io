@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("iss",["Function"],[["IsSortedAscending",,[["NeatGenomeAssertions",,,,0,"File:src/SharpNeat/Neat/Genome/NeatGenomeAssertions.cs:NeatGenomeAssertions.IsSortedAscending","CSharpClass:NeatGenomeAssertions:IsSortedAscending"]]]]);

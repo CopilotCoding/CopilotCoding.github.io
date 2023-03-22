@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_li",["Variable"],[["_lineIdx",,[["NetFileReader",,,,0,"File:src/SharpNeat/IO/NetFileReader.cs:NetFileReader._lineIdx","CSharpClass:NetFileReader:_lineIdx"]]]]);

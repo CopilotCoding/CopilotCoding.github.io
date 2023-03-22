@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("iwe",["Interface"],[["IWeightMutationStrategy",,[[,,,,0,"File:src/SharpNeat/Neat/Reproduction/Asexual/WeightMutation/IWeightMutationStrategy.cs:IWeightMutationStrategy","CSharpClass:IWeightMutationStrategy"]]]]);

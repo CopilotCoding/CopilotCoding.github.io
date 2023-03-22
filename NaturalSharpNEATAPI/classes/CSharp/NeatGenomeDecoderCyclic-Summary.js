@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:NeatGenomeDecoderCyclic","NeatGenomeDecoderCyclic");NDSummary.OnSummaryLoaded("CSharpClass:NeatGenomeDecoderCyclic",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[1160,0,0,"NeatGenomeDecoderCyclic"],[1161,0,2,"Functions","Functions"],[1218,0,1,"Decode","Decode"]]);

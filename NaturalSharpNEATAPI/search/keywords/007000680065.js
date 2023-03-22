@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("phe",["Class"],[["PhenomeEvaluatorStackPool",,[[,,,,0,"File:src/SharpNeat/Evaluation/PhenomeEvaluatorStackPool.cs:PhenomeEvaluatorStackPool","CSharpClass:PhenomeEvaluatorStackPool"]]]]);

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("CSharpClass:ConnectionSorterV1","ConnectionSorterV1");NDSummary.OnSummaryLoaded("CSharpClass:ConnectionSorterV1",[["C#","CSharp"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[201,0,0,"ConnectionSorterV1"],[202,0,2,"Functions","Functions"],[203,0,1,"Sort","Sort"]]);

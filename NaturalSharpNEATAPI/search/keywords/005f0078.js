@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_x",["Variable"],[["_x",,[["ActivationFunctionsBenchmarks",,,,0,"File:src/Benchmarks/SharpNeat.Benchmarks/NeuralNets/Double/ActivationFunctions/ActivationFunctionsBenchmarks.cs:ActivationFunctionsBenchmarks._x","CSharpClass:ActivationFunctionsBenchmarks:_x"]]]]);

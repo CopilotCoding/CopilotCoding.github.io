@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ise",["Interface"],[["ISexualReproductionStrategy",,[[,,,,0,"File:src/SharpNeat/Neat/Reproduction/Sexual/Strategy/ISexualReproductionStrategy.cs:ISexualReproductionStrategy","CSharpClass:ISexualReproductionStrategy"]]]]);

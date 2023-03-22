@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_lo",["Variable"],[["_lockObj",,[["DefaultActivationFunctionFactory",,,,0,"File:src/SharpNeat/NeuralNets/DefaultActivationFunctionFactory.cs:DefaultActivationFunctionFactory._lockObj","CSharpClass:DefaultActivationFunctionFactory:_lockObj"]]]]);

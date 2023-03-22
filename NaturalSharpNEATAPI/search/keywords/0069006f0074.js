@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("iot",["Class"],[["IOTestUtils",,[[,,,,0,"File:src/Tests/SharpNeat.Tests/Neat/Genome/IO/IOTestUtils.cs:IOTestUtils","CSharpClass:IOTestUtils"]]]]);

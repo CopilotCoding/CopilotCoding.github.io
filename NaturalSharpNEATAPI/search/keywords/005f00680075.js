@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("_hu",["Variable"],[["_hue",,[["HSLColor",,,,0,"File:src/SharpNeat.Drawing/HSLColor.cs:HSLColor._hue","CSharpClass:HSLColor:_hue"]]]]);
